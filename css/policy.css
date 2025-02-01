@@ -34,7 +34,7 @@ body {
   padding-right: 11.25rem;
 }
 
-.container {
+.container-m {
   padding-bottom: 1.25rem;
 }
 
@@ -114,6 +114,14 @@ body {
 /* ******Policy-Page-Content***** */
 /* ****************************** */
 
+.policy--hover {
+  box-shadow: 0.5rem 0.5rem 8rem 0.8rem rgb(80, 80, 80);
+  transition: all 0.3s ease;
+}
+.policy--hover:hover {
+  box-shadow: 0.5rem 0.5rem 4rem 1rem rgb(80, 80, 80);
+}
+
 .introduction-PGA {
   padding: 3rem 0 3rem 0;
   font-size: 1rem;
@@ -123,24 +131,99 @@ body {
 }
 
 .objectives {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
   background-color: #1c1c1c;
   border-radius: 15px;
   padding: 2rem 0 2rem 0;
-  box-shadow: 0.5rem 0.5rem 8rem 0.8rem rgb(80, 80, 80);
 }
 
-.objectives-list {
+.policy-list {
   padding-left: 2rem;
 }
 
-.objectives-heading {
+.policy-list-heading {
   font-size: 2rem;
   padding-bottom: 2rem;
+  color: #eb4d51;
 }
 
-.objective {
+.list-item {
   font-size: 1.25rem;
   font-weight: 400;
   margin-bottom: 1rem;
   color: #ddd;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  line-height: 2rem;
+}
+
+.policy-framework {
+  margin-top: 6rem;
+  margin-bottom: 3rem;
+  background-color: #1c1c1c;
+  border-radius: 15px;
+  padding: 2rem 0 2rem 0;
+  position: relative;
+}
+
+.policy-container-heading {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+  /* display: inline-block; */
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  color: #cf1d22;
+  border-bottom: 3px solid #a6171b;
+}
+
+.policy-framework h2 {
+  padding-top: 7rem;
+}
+
+.policy-strategy {
+  margin-top: 6rem;
+  margin-bottom: 3rem;
+  background-color: #1c1c1c;
+  border-radius: 15px;
+  padding: 2rem 0 2rem 0;
+  position: relative;
+}
+
+.policy-governance {
+  margin-top: 6rem;
+  margin-bottom: 3rem;
+  background-color: #1c1c1c;
+  border-radius: 15px;
+  padding: 2rem 0 2rem 0;
+  position: relative;
+}
+
+.policy-conclusion {
+  margin-top: 6rem;
+  margin-bottom: 3rem;
+  background-color: #1c1c1c;
+  border-radius: 15px;
+  padding: 2rem 0 2rem 0;
+  position: relative;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.conclusion-heading {
+  font-size: 2.5rem;
+  padding-bottom: 2rem;
+  color: #eb4d51;
+}
+
+.conclusion-text {
+  font-size: 1.25rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+  color: #ddd;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  line-height: 2rem;
 }
