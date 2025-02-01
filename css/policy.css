@@ -40,7 +40,7 @@ body {
 
 .heading-policy-container {
   background-color: rgba(0, 0, 0, 0.6);
-  background-image: url(./images/bg-img-3.jpg);
+  background-image: url(../images/bg-img-3.jpg);
   background-repeat: no-repeat;
   background-position: 100% 35%;
   background-size: cover;
@@ -108,4 +108,39 @@ body {
   font-size: 1.0625rem;
   /* text-align: center; */
   line-height: 2;
+}
+
+/* ****************************** */
+/* ******Policy-Page-Content***** */
+/* ****************************** */
+
+.introduction-PGA {
+  padding: 3rem 0 3rem 0;
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 1.5rem;
+}
+
+.objectives {
+  background-color: #1c1c1c;
+  border-radius: 15px;
+  padding: 2rem 0 2rem 0;
+  box-shadow: 0.5rem 0.5rem 8rem 0.8rem rgb(80, 80, 80);
+}
+
+.objectives-list {
+  padding-left: 2rem;
+}
+
+.objectives-heading {
+  font-size: 2rem;
+  padding-bottom: 2rem;
+}
+
+.objective {
+  font-size: 1.25rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+  color: #ddd;
 }
