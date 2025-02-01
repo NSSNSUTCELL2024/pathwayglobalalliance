@@ -40,7 +40,7 @@ body {
 
 .heading-teams-container {
   background-color: rgba(0, 0, 0, 0.6);
-  background-image: url(./images/background-meeting.jpg);
+  background-image: url('/images/background-meeting.jpg');
   background-repeat: no-repeat;
   background-position: 100% 65%;
   background-size: cover;
