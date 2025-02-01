@@ -1,0 +1,137 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* font-size: 62.5%; */
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+  background-color: #1c1c1c;
+}
+
+.heading-primary {
+  color: black;
+  font-size: 2.5rem;
+}
+
+.heading-secondary {
+  font-size: 2.25rem;
+}
+
+.heading-tertiary {
+}
+
+.padding--right-left {
+  padding-left: 11.25rem;
+  padding-right: 11.25rem;
+}
+
+.container {
+  padding-bottom: 2.5rem;
+}
+
+.heading-policy-container {
+  background-color: rgba(0, 0, 0, 0.6);
+  background-image: url(./images/bg-img-3.jpg);
+  background-repeat: no-repeat;
+  background-position: 100% 35%;
+  background-size: cover;
+  background-blend-mode: darken;
+  height: 23.125rem;
+}
+
+.heading-policy-text .heading-primary {
+  text-align: center;
+  padding-top: 6.25rem;
+  color: white;
+}
+
+.sub-heading {
+  color: white;
+  font-size: 1rem;
+  margin-top: 0.9375rem;
+  padding-bottom: 6.25rem;
+  text-align: center;
+  text-align: align;
+  font-weight: 500;
+}
+
+.home-link:link,
+.home-link:visited {
+  color: white;
+  text-decoration: none;
+  font-style: inherit;
+  transition: all 0.3s ease;
+}
+
+.home-link:hover,
+.home-link:hover {
+  color: red;
+  transform: scale(1.1);
+}
+
+/* ************************ */
+/* *****member-about******* */
+/* ************************ */
+
+.member-data {
+  padding-top: 6.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6.25rem;
+}
+
+.member-img {
+  height: 21.875rem;
+  width: 21.875rem;
+  border-radius: 11px;
+}
+
+.member-about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.member-qualifications {
+  font-size: 1.125rem;
+  color: #eb4d51;
+  font-weight: 600;
+  margin-bottom: 0.9375rem;
+}
+
+.member-name {
+  font-size: 2rem;
+  color: white;
+  font-weight: 700;
+  margin-bottom: 0.3125rem;
+}
+
+.underline {
+  /* content: ""; */
+  /* position: absolute; */
+  margin-left: 0.3125rem;
+  margin-bottom: 2rem;
+  border-radius: 7px;
+  bottom: -0.3125rem;
+  left: 0;
+  width: 4rem;
+  height: 2px;
+  background: linear-gradient(to right, #1c1c1c, #e62026 90%);
+}
+
+.member-description {
+  font-size: 1rem;
+  letter-spacing: 0.8;
+  line-height: 1.6;
+  color: #ddd;
+}

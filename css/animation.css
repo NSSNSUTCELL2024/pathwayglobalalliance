@@ -1,0 +1,19 @@
+@keyframes appear {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+    scale: 0.2;
+  }
+
+  to {
+    transform: translateX(0);
+    opacity: 100%;
+    scale: 1;
+  }
+}
+
+.team-card {
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 20%;
+}

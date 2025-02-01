@@ -1,0 +1,56 @@
+@media (max-width: 64em) {
+  html {
+    font-size: 80%;
+  }
+}
+
+@media (max-width: 55em) {
+  .padding--right-left {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  .teams-heading::before {
+    margin-left: 3.5rem;
+  }
+}
+
+@media (max-width: 42.5em) {
+  /* html {
+    font-size: 43.75%;
+  } */
+
+  .padding--right-left {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .teams-heading::before {
+    margin-left: 3rem;
+  }
+
+  .teams-images-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 33em) {
+  .teams-images-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .padding--right-left {
+    padding-right: 5rem;
+    padding-left: 5rem;
+  }
+}
+
+@media (max-width: 27.5em) {
+  .padding--left {
+    padding-left: 3rem;
+  }
+
+  .teams-heading::before {
+    margin-left: 3.5rem;
+  }
+}
