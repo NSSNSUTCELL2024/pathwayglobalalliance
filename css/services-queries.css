@@ -1,0 +1,166 @@
+@media (max-width: 94em) {
+  .padding--right-left {
+    padding-right: 6rem;
+    padding-left: 6rem;
+  }
+}
+
+@media (max-width: 94em) {
+  html {
+    font-size: 90%;
+  }
+
+  .padding--right-left {
+    padding-right: 5rem;
+    padding-left: 5rem;
+  }
+}
+
+@media (max-width: 79em) {
+  /* html {
+    font-size: 70%;
+  } */
+}
+
+@media (max-width: 70em) {
+  .img-box-1::before {
+    width: 60rem;
+  }
+
+  .img-box-3::before {
+    width: 60rem;
+  }
+
+  .text-box-2::before {
+    width: 60rem;
+    margin-left: 3rem;
+  }
+
+  .text-box-4::before {
+    width: 60rem;
+    margin-left: 3rem;
+  }
+}
+
+@media (max-witdth: 67.5em) {
+  /* html {
+    font-size: 60%;
+  } */
+}
+
+@media (max-width: 45em) {
+  html {
+    font-size: 50%;
+  }
+
+  .padding--right-left {
+    padding-right: 5rem;
+    padding-left: 5rem;
+  }
+
+  .services-grid {
+    grid-template-columns: 1fr;
+    row-gap: 2rem;
+  }
+
+  .img-box {
+    padding-top: 3rem;
+  }
+
+  .text-box {
+  }
+
+  .img-box-1 img {
+    width: 30rem;
+  }
+
+  .img-box-1::before {
+    width: 60rem;
+    display: none;
+  }
+
+  .text-box-1 {
+    position: relative;
+    margin-bottom: 8rem;
+  }
+
+  .text-box-1::before {
+    content: "";
+    position: absolute;
+    border-radius: 20px;
+    display: inline-block;
+    /* margin-bottom: -2.5rem; */
+    bottom: -4rem;
+    left: 0;
+    width: 50rem;
+    height: 2px;
+    background: linear-gradient(to right, #e62026, #1c1c1c 90%);
+  }
+
+  .img-box-2 {
+    grid-row: 3;
+  }
+
+  .img-box-2 img {
+    width: 24rem;
+  }
+
+  .text-box-2 {
+    grid-row: 4;
+    margin-bottom: 8rem;
+  }
+
+  .img-box-3::before {
+    width: 50rem;
+    display: none;
+  }
+
+  .text-box-3 {
+    position: relative;
+    margin-bottom: 8rem;
+  }
+
+  .text-box-3::before {
+    content: "";
+    position: absolute;
+    border-radius: 20px;
+    display: inline-block;
+    /* margin-bottom: -2.5rem; */
+    bottom: -4rem;
+    left: 0;
+    width: 50rem;
+    height: 2px;
+    background: linear-gradient(to right, #e62026, #1c1c1c 90%);
+  }
+
+  .text-box-2::before {
+    width: 50rem;
+    margin-left: 3rem;
+    height: 2px;
+  }
+
+  .img-box-4 {
+    grid-row: 7;
+  }
+
+  .text-box-4::before {
+    width: 50rem;
+    margin-left: 3rem;
+    height: 2px;
+  }
+}
+
+@media (max-width: 28em) {
+  .text-box-1::before {
+    width: 30rem;
+  }
+  .text-box-2::before {
+    width: 30rem;
+  }
+  .text-box-3::before {
+    width: 30rem;
+  }
+  .text-box-4::before {
+    width: 30rem;
+  }
+}
