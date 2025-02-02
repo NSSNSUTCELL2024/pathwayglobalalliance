@@ -116,142 +116,135 @@ body {
   margin-bottom: 3rem;
 }
 
-/* ******************** */
-/* ********Grid******** */
-/* ******************** */
-.services-grid {
-  display: grid;
+/* ***************************** */
+/* ********services-flex******** */
+/* ***************************** */
+
+.services-flex {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  grid-template-columns: 1fr 1fr;
-  row-gap: 8rem;
-  column-gap: 2rem;
-  padding-bottom: 5rem;
+  width: 100%;
 }
 
-.img-box {
-  background-blend-mode: darken;
-  justify-self: center;
-  padding-bottom: 4rem;
-}
+.service-flex {
+  /* background-color: #ee6367; */
+  background-color: #ec4141;
+  margin-bottom: 4rem;
+  border-radius: 11px;
 
-.img-box img:hover {
-  transform: translateY(-1rem);
-  box-shadow: 0 1rem 4rem 1rem rgb(100, 100, 100);
-}
-
-.img-box img {
-  width: 20rem;
-  opacity: 50%;
-  border-radius: 20px;
+  box-shadow: 0.5rem 0.5rem 7rem 0.5rem rgba(100, 100, 100, 0.8);
   transition: all 0.3s ease;
-  box-shadow: 0.5rem 0.5rem 10rem 2rem rgb(100, 100, 100);
+
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+
+  overflow: hidden;
 }
 
-.text-box {
-  justify-self: center;
+.service-flex:hover {
+  box-shadow: 0.5rem 0.5rem 3rem 0.5rem rgb(100, 100, 100);
 }
 
-.text-box p {
-  line-height: 2.5rem;
-  padding-bottom: 2rem;
+.service-flex-image {
+  margin-right: 2rem;
+  background-size: cover;
+  background-position: center center;
 }
 
-.img-box-1 {
-  position: relative;
+.service-flex-content {
+  padding-left: 4rem;
 }
 
-.img-box-1 img {
-  width: 24rem;
+.service-flex-list {
+  list-style: url(../images/arrow_right.png);
 }
 
-.img-box-1::before {
-  content: "";
-  position: absolute;
-  border-radius: 20px;
-  display: inline-block;
-  /* margin-bottom: -2.5rem; */
-  bottom: -3rem;
-  left: 0;
-  width: 80rem;
-  height: 3px;
-  background: linear-gradient(to right, #e62026, #1c1c1c 90%);
-}
-
-.text-box-title {
-  color: #e62026;
-  font-size: 2rem;
-  font-weight: 600;
-  letter-spacing: 1px;
-  padding-bottom: 3rem;
+.service-flex-heading {
+  /* color: #731013; */
+  color: #1c1c1c;
   text-align: center;
+  font-size: 2.5rem;
+  padding-bottom: 2.5rem;
 }
 
-.text-box-content {
-  text-align: center;
-  columns: #aaa;
-  font-size: 1.3rem;
-  font-weight: 400;
+.service-flex-list-item {
+  font-size: 1.25rem;
   line-height: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
-.text-box-2 {
-  position: relative;
+.service-flex-list:last-child {
+  padding-bottom: 3rem;
 }
 
-.text-box-2::before {
-  content: "";
-  position: absolute;
-  border-radius: 20px;
-  display: inline-block;
-  margin-left: 7rem;
-  /* margin-bottom: -2.5rem; */
-  bottom: -5rem;
-  left: 0;
-  width: 80rem;
-  height: 3px;
-  background: linear-gradient(to right, #e62026, #1c1c1c 90%);
+/* Flex Container Images */
+
+.service-flex-image-1 {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(243, 144, 147, 0.2),
+      rgba(238, 99, 104, 0.5)
+    ),
+    url(../images/students-services.jpg);
 }
 
-.img-box-3 {
-  position: relative;
+.service-flex-image-2 {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(243, 144, 147, 0.2),
+      rgba(238, 99, 104, 0.5)
+    ),
+    url(../images/indian-culture-services.jpg);
 }
 
-.img-box-3 img {
-  width: 24rem;
+.service-flex-image-3 {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(243, 144, 147, 0.2),
+      rgba(238, 99, 104, 0.5)
+    ),
+    url(../images/leaders-services.jpg);
+  background-position: 100%;
 }
 
-.img-box-3::before {
-  content: "";
-  position: absolute;
-  border-radius: 20px;
-  display: inline-block;
-  /* margin-bottom: -2.5rem; */
-  bottom: -3rem;
-  left: 0;
-  width: 80rem;
-  height: 3px;
-  background: linear-gradient(to right, #e62026, #1c1c1c 90%);
+.service-flex-image-4 {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(243, 144, 147, 0.2),
+      rgba(238, 99, 104, 0.5)
+    ),
+    url(../images/partnership-services.jpg);
+  background-position: 40% 100%;
 }
 
-.img-box-4 img {
-  width: 24rem;
+.service-flex-image-5 {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(243, 144, 147, 0.2),
+      rgba(238, 99, 104, 0.5)
+    ),
+    url(../images/education-services.jpg);
+  background-position: 40% 100%;
 }
 
-.text-box-4 {
-  position: relative;
+.service-flex-image-6 {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(243, 144, 147, 0.2),
+      rgba(238, 99, 104, 0.5)
+    ),
+    url(../images/digital_media-services.jpg);
+  background-position: 40% 100%;
 }
 
-.text-box-4::before {
-  content: "";
-  position: absolute;
-  border-radius: 20px;
-  display: inline-block;
-  margin-left: 7rem;
-  /* margin-bottom: -2.5rem; */
-  bottom: -5rem;
-  left: 0;
-  width: 80rem;
-  height: 3px;
-  background: linear-gradient(to right, #e62026, #1c1c1c 90%);
+.service-flex-image-7 {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(243, 144, 147, 0.2),
+      rgba(238, 99, 104, 0.5)
+    ),
+    url(../images/advisory-services.jpg);
+  background-position: 40% 100%;
 }
