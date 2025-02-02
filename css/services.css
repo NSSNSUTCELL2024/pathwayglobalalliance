@@ -130,8 +130,8 @@ body {
 }
 
 .service-flex {
-  background-color: #ee6367; 
-  /*background-color: #ec4141;*/
+  /* background-color: #ee6367; */
+  background-color: #ec4141;
   margin-bottom: 4rem;
   border-radius: 11px;
 
@@ -163,8 +163,8 @@ body {
 }
 
 .service-flex-heading {
-  color: #731013; 
-  /*color: #1c1c1c;*/
+  /* color: #731013; */
+  color: #1c1c1c;
   text-align: center;
   font-size: 2.5rem;
   padding-bottom: 2.5rem;
