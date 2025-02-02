@@ -5,9 +5,6 @@
 }
 
 @media (max-width: 63em) {
-  html {
-    font-size: 60%;
-  }
 
   .padding--right-left {
     padding-left: 5rem;
