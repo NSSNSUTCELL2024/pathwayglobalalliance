@@ -1,0 +1,24 @@
+@media (max-width: 68.5em) {
+    html {
+      font-size: 80%;
+    }
+  }
+  
+  @media (max-width: 53.25em) {
+    .padding--right-left {
+      padding-right: 3rem;
+      padding-left: 3rem;
+    }
+  }
+  
+  @media (max-width: 35em) {
+    html {
+      font-size: 60%;
+    }
+  
+    .padding--right-left {
+      padding-right: 2.5rem;
+      padding-left: 2.5rem;
+    }
+  }
+  
