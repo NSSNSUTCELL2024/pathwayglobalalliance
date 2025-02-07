@@ -119,11 +119,11 @@ nav {
 /* ****************************** */
 
 .policy--hover {
-  box-shadow: 0.8rem 0.8rem 12.8rem 12.8rem rgb(80, 80, 80);
+  box-shadow: 0.8rem 0.8rem 12.8rem 12.8rem rgb(42, 42, 42);
   transition: all 0.3s ease;
 }
 .policy--hover:hover {
-  box-shadow: 0.8rem 0.8rem 6.4rem 1.6rem rgb(80, 80, 80);
+  box-shadow: 0.8rem 0.8rem 6.4rem 1.6rem rgb(42, 42, 42);
 }
 
 .introduction-PGA {

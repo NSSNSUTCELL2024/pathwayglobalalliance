@@ -1,229 +1,233 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-  }
-  
-  html {
-    scroll-behavior: smooth;
-    /* font-size: 62.5%;   */
-  }
-  
-  body {
-    font-family: "Poppins", sans-serif;
-    line-height: 1;
-    font-weight: 400;
-    color: #fff;
-    background-color: #1c1c1c;
-  }
-  
-  .heading-primaryy {
-    color: black;
-    font-size: 2.5rem;
-  }
-  
-  .heading-secondaryy {
-    font-size: 2.25rem;
-  }
-  
-  
-  
-  .padding--right-left {
-    padding-left: 11.25rem;
-    padding-right: 11.25rem;
-  }
-  
-  .container-m {
-    padding-bottom: 1.25rem;
-  }
-  
-  .heading-recruitment-container {
-    background-color: rgba(0, 0, 0, 0.6);
-    background-image: url(../images/bg-img-3.jpg);
-    background-repeat: no-repeat;
-    background-position: 100% 35%;
-    background-size: cover;
-    background-blend-mode: darken;
-    height: 23.125rem;
-  }
-  
-  .heading-recruitment-text .heading-primaryy {
-    text-align: center;
-    padding-top: 6.25rem;
-    color: white;
-  }
-  
-  .sub-heading {
-    color: white;
-    font-size: 1rem;
-    margin-top: 0.9375rem;
-    padding-bottom: 6.25rem;
-    text-align: center;
-    text-align: align;
-    font-weight: 500;
-  }
-  
-  .home-link:link,
-  .home-link:visited {
-    color: white;
-    text-decoration: none;
-    font-style: inherit;
-    transition: all 0.3s ease;
-  }
-  
-  .home-link:hover,
-  .home-link:hover {
-    color: #e62026;
-    transform: scale(1.1);
-  }
-  
-  /* *********************** */
-  /* ****recruitment-Content***** */
-  /* *********************** */
-  
-  .recruitment-heading {
-    padding-bottom: 0.4375rem;
-    margin-top: 2.5rem;
-    margin-bottom: 3.75rem;
-    color: #fff;
-    border-bottom: #333333;
-    display: inline-block;
-    position: relative;
-  }
-  
-  .recruitment-heading::before {
-    content: "";
-    position: absolute;
-    margin-left: 11.875rem;
-    border-radius: 20px;
-    bottom: -0.3125rem;
-    left: 0;
-    width: 8.75rem;
-    height: 2.5px;
-    background: linear-gradient(to right, #1c1c1c, #e62026 90%);
-  }
-  
-  .recruitment-para {
-    font-size: 1.0625rem;
-    /* text-align: center; */
-    line-height: 2;
-  }
-  
-  /* ****************************** */
-  /* ******recruitment-Page-Content***** */
-  /* ****************************** */
-  
-  .recruitment--hover {
-    box-shadow: 0.5rem 0.5rem 8rem 0.8rem rgb(80, 80, 80);
-    transition: all 0.3s ease;
-  }
-  .recruitment--hover:hover {
-    box-shadow: 0.5rem 0.5rem 4rem 1rem rgb(80, 80, 80);
-  }
-  
-  .introduction-PGA {
-    padding: 3rem 0 3rem 0;
-    font-size: 1rem;
-    font-weight: 400;
-    letter-spacing: 1px;
-    line-height: 1.5rem;
-  }
-  
-  .objectives {
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-    background-color: #1c1c1c;
-    border-radius: 15px;
-    padding: 2rem 0 2rem 0;
-  }
-  
-  .recruitment-list {
-    padding-left: 2rem;
-  }
-  
-  .recruitment-list-heading {
-    font-size: 2rem;
-    padding-bottom: 2rem;
-    color: #eb4d51;
-  }
-  
-  .list-item {
-    font-size: 1.25rem;
-    font-weight: 400;
-    margin-bottom: 1rem;
-    color: #ddd;
-    margin-left: 2rem;
-    margin-right: 2rem;
-    line-height: 2rem;
-  }
-  
-  .recruitment-framework {
-    margin-top: 6rem;
-    margin-bottom: 3rem;
-    background-color: #1c1c1c;
-    border-radius: 15px;
-    padding: 2rem 0 2rem 0;
-    position: relative;
-  }
-  
-  .recruitment-container-heading {
-    text-align: center;
-    font-size: 3rem;
-    font-weight: 700;
-    /* display: inline-block; */
-    left: 50%;
-    transform: translateX(-50%);
-    position: absolute;
-    color: #cf1d22;
-    border-bottom: 3px solid #a6171b;
-  }
-  
-  .recruitment-framework h2 {
-    padding-top: 7rem;
-  }
-  
-  .recruitment-strategy {
-    margin-top: 6rem;
-    margin-bottom: 3rem;
-    background-color: #1c1c1c;
-    border-radius: 15px;
-    padding: 2rem 0 2rem 0;
-    position: relative;
-  }
-  
-  .recruitment-governance {
-    margin-top: 6rem;
-    margin-bottom: 3rem;
-    background-color: #1c1c1c;
-    border-radius: 15px;
-    padding: 2rem 0 2rem 0;
-    position: relative;
-  }
-  
-  .recruitment-conclusion {
-    margin-top: 6rem;
-    margin-bottom: 3rem;
-    background-color: #1c1c1c;
-    border-radius: 15px;
-    padding: 2rem 0 2rem 0;
-    position: relative;
-    text-align: center;
-    font-size: 3rem;
-  }
-  
-  .conclusion-heading {
-    font-size: 2.5rem;
-    padding-bottom: 2rem;
-    color: #eb4d51;
-  }
-  
-  .conclusion-text {
-    font-size: 1.25rem;
-    font-weight: 400;
-    margin-bottom: 1rem;
-    color: #ddd;
-    margin-left: 2rem;
-    margin-right: 2rem;
-    line-height: 2rem;
-  }
-  
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #fff;
+  background-color: #1c1c1c;
+}
+
+nav {
+  z-index: 999;
+}
+
+.heading-primaryy {
+  color: black;
+  font-size: 4rem;
+}
+
+.heading-secondaryy {
+  font-size: 3.6rem;
+}
+
+.heading-tertiaryy {
+}
+
+.padding--right-left {
+  padding-left: 18rem;
+  padding-right: 18rem;
+}
+
+.container-m {
+  padding-bottom: 2.4rem;
+}
+
+.heading-recruitment-container {
+  background-color: rgba(0, 0, 0, 0.6);
+  background-image: url(../images/recruitment-hero.jpg);
+  background-repeat: no-repeat;
+  background-position: 100% 70%;
+  background-size: cover;
+  background-blend-mode: darken;
+  height: 37rem;
+}
+
+.heading-recruitment-text .heading-primaryy {
+  text-align: center;
+  padding-top: 10rem;
+  color: white;
+}
+
+.sub-heading {
+  color: white;
+  font-size: 1.6rem;
+  margin-top: 1.5rem;
+  padding-bottom: 10rem;
+  text-align: center;
+  text-align: align;
+  font-weight: 500;
+}
+
+.home-link:link,
+.home-link:visited {
+  color: white;
+  text-decoration: none;
+  font-style: inherit;
+  transition: all 0.3s ease;
+}
+
+.home-link:hover,
+.home-link:hover {
+  color: #e62026;
+  transform: scale(1.1);
+}
+
+/* *********************** */
+/* ****recruitment-Content***** */
+/* *********************** */
+
+.recruitment-heading {
+  padding-bottom: 0.7rem;
+  margin-top: 4rem;
+  margin-bottom: 6rem;
+  color: #fff;
+  border-bottom: #333333;
+  display: inline-block;
+  position: relative;
+}
+
+.recruitment-heading::before {
+  content: "";
+  position: absolute;
+  margin-left: 19rem;
+  border-radius: 20px;
+  bottom: -0.5rem;
+  left: 0;
+  width: 14rem;
+  height: 2.5px;
+  background: linear-gradient(to right, #1c1c1c, #e62026 90%);
+}
+
+.recruitment-para {
+  font-size: 1.7rem;
+  /* text-align: center; */
+  line-height: 2;
+}
+
+/* ****************************** */
+/* ******recruitment-Page-Content***** */
+/* ****************************** */
+
+.recruitment--hover {
+  box-shadow: 0.8rem 0.8rem 12.8rem 12.8rem rgb(42, 42, 42);
+  transition: all 0.3s ease;
+}
+.recruitment--hover:hover {
+  box-shadow: 0.8rem 0.8rem 6.4rem 1.6rem rgb(42, 42, 42);
+}
+
+.introduction-PGA {
+  padding: 4.8rem 0 4.8rem 0;
+  font-size: 1.6rem;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 2.4rem;
+}
+
+.objectives {
+  margin-top: 4.8rem;
+  margin-bottom: 4.8rem;
+  background-color: #1c1c1c;
+  border-radius: 15px;
+  padding: 3.2rem 0 3.2rem 0;
+}
+
+.recruitment-list {
+  padding-left: 3.2rem;
+}
+
+.recruitment-list-heading {
+  font-size: 3.2rem;
+  padding-bottom: 3.2rem;
+  color: #eb4d51;
+}
+
+.list-item {
+  font-size: 2.4rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+  color: #ddd;
+  margin-left: 3.2rem;
+  margin-right: 3.2rem;
+  line-height: 3.2rem;
+}
+
+.recruitment-framework {
+  margin-top: 9.6rem;
+  margin-bottom: 3rem;
+  background-color: #1c1c1c;
+  border-radius: 15px;
+  padding: 3.2rem 0 3.2rem 0;
+  position: relative;
+}
+
+.recruitment-container-heading {
+  text-align: center;
+  font-size: 4.8rem;
+  font-weight: 700;
+  /* display: inline-block; */
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  color: #cf1d22;
+  border-bottom: 3px solid #a6171b;
+}
+
+.recruitment-framework h2 {
+  padding-top: 11.2rem;
+}
+
+.recruitment-strategy {
+  margin-top: 9.6rem;
+  margin-bottom: 4.8rem;
+  background-color: #1c1c1c;
+  border-radius: 15px;
+  padding: 3.2rem 0 3.2rem 0;
+  position: relative;
+}
+
+.recruitment-governance {
+  margin-top: 9.6rem;
+  margin-bottom: 4.8rem;
+  background-color: #1c1c1c;
+  border-radius: 15px;
+  padding: 3.2rem 0 3.2rem 0;
+  position: relative;
+}
+
+.recruitment-conclusion {
+  margin-top: 9.6rem;
+  margin-bottom: 4.8rem;
+  background-color: #1c1c1c;
+  border-radius: 15px;
+  padding: 3.2rem 0 3.2rem 0;
+  position: relative;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.conclusion-heading {
+  font-size: 2.8rem;
+  padding-bottom: 3.2rem;
+  color: #eb4d51;
+}
+
+.conclusion-text {
+  font-size: 2.4rem;
+  font-weight: 400;
+  margin-bottom: 1.6rem;
+  color: #ddd;
+  margin-left: 3.2rem;
+  margin-right: 3.2rem;
+  line-height: 3.2rem;
+}
