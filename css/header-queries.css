@@ -1,4 +1,4 @@
-@media (max-width: 72em) {
+@media (max-width: 75em) {
   html {
     font-size: 50%;
   }
@@ -7,21 +7,16 @@
   }
 
   .nav-contact {
-    margin-left: 3rem;
+    margin-left: 1rem;
+    margin-right: 0;
   }
-}
 
-@media (max-width: 60em) {
   .nav-bar {
-    gap: 1.5rem;
-  }
-
-  .nav-contact {
-    margin-left: 2rem;
+    gap: 1rem;
   }
 }
 
-@media (max-width: 55em) {
+@media (max-width: 58em) {
   .hide-on-mobile {
     display: none;
   }
