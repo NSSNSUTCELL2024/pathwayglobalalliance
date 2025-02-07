@@ -14,9 +14,235 @@
     <link rel="stylesheet" href="/css/Teams.css" />
     <link rel="stylesheet" href="/css/teams-queries.css" />
     <link rel="stylesheet" href="/css/animation.css" />
+
+    <link rel="stylesheet" href="../css/header.css" />
+    <link rel="stylesheet" href="../css/header-queries.css" />
+
+    <link rel="stylesheet" href="../css/footer.css" />
+    <link rel="stylesheet" href="../css/footer-queries.css" />
     <title>Pathway Global Alliance</title>
   </head>
   <body>
+    <nav class="nav-bar-container">
+      <ul class="nav-bar sidebar">
+        <!-- <li class="nav-item logo">
+          <a href="#" class="logo-link" alt="Nav-Bar-link">
+            <img
+              src="../images/logo.png"
+              alt="Logo of Global Pathway Alliance"
+            />
+          </a>
+        </li> -->
+
+        <li class="nav-item nav-home">
+          <a href="./index.html" class="nav-link" alt="Nav-Bar-link-home"
+            >Home</a
+          >
+        </li>
+
+        <li class="nav-item nav-about">
+          <a href="./about.html" class="nav-link" alt="Nav-Bar-link-About-us"
+            >About Us</a
+          >
+        </li>
+
+        <li class="nav-item nav-recruitment">
+          <a href="./services.html" class="nav-link" alt="Nav-Bar-link-services"
+            >services</a
+          >
+        </li>
+
+        <li class="nav-item nav-policy">
+          <a
+            href="./policy.html"
+            class="nav-link"
+            alt="Nav-Bar-link-recruitment-procedure"
+            >recruitment procedure</a
+          >
+        </li>
+
+        <li class="nav-item nav-team">
+          <a href="./policy.html" class="nav-link" alt="Nav-Bar-link">policy</a>
+        </li>
+
+        <li class="nav-item nav-services">
+          <a href="#" class="nav-link" alt="Nav-Bar-link-team">Team</a>
+        </li>
+
+        <li class="nav-item nav-language">
+          <a href="#" class="nav-link" alt="Nav-Bar-link-language"
+            ><div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="globe-icon"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m7.5-6.923c-.67.204-1.335.82-1.887 1.855q-.215.403-.395.872c.705.157 1.472.257 2.282.287zM4.249 3.539q.214-.577.481-1.078a7 7 0 0 1 .597-.933A7 7 0 0 0 3.051 3.05q.544.277 1.198.49zM3.509 7.5c.036-1.07.188-2.087.436-3.008a9 9 0 0 1-1.565-.667A6.96 6.96 0 0 0 1.018 7.5zm1.4-2.741a12.3 12.3 0 0 0-.4 2.741H7.5V5.091c-.91-.03-1.783-.145-2.591-.332M8.5 5.09V7.5h2.99a12.3 12.3 0 0 0-.399-2.741c-.808.187-1.681.301-2.591.332zM4.51 8.5c.035.987.176 1.914.399 2.741A13.6 13.6 0 0 1 7.5 10.91V8.5zm3.99 0v2.409c.91.03 1.783.145 2.591.332.223-.827.364-1.754.4-2.741zm-3.282 3.696q.18.469.395.872c.552 1.035 1.218 1.65 1.887 1.855V11.91c-.81.03-1.577.13-2.282.287zm.11 2.276a7 7 0 0 1-.598-.933 9 9 0 0 1-.481-1.079 8.4 8.4 0 0 0-1.198.49 7 7 0 0 0 2.276 1.522zm-1.383-2.964A13.4 13.4 0 0 1 3.508 8.5h-2.49a6.96 6.96 0 0 0 1.362 3.675c.47-.258.995-.482 1.565-.667m6.728 2.964a7 7 0 0 0 2.275-1.521 8.4 8.4 0 0 0-1.197-.49 9 9 0 0 1-.481 1.078 7 7 0 0 1-.597.933M8.5 11.909v3.014c.67-.204 1.335-.82 1.887-1.855q.216-.403.395-.872A12.6 12.6 0 0 0 8.5 11.91zm3.555-.401c.57.185 1.095.409 1.565.667A6.96 6.96 0 0 0 14.982 8.5h-2.49a13.4 13.4 0 0 1-.437 3.008M14.982 7.5a6.96 6.96 0 0 0-1.362-3.675c-.47.258-.995.482-1.565.667.248.92.4 1.938.437 3.008zM11.27 2.461q.266.502.482 1.078a8.4 8.4 0 0 0 1.196-.49 7 7 0 0 0-2.275-1.52c.218.283.418.597.597.932m-.488 1.343a8 8 0 0 0-.395-.872C9.835 1.897 9.17 1.282 8.5 1.077V4.09c.81-.03 1.577-.13 2.282-.287z"
+                ></path>
+              </svg>
+              <svg
+                class="dropdown-svg"
+                fill="currentColor"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 320 512"
+              >
+                <!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                <path
+                  d="M137.4 374.6c12.5 12.5 32.8 12.5 45.3 0l128-128c9.2-9.2 11.9-22.9 6.9-34.9s-16.6-19.8-29.6-19.8L32 192c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9l128 128z"
+                />
+              </svg>
+            </div>
+            <div class="dropdown-list-container">
+              <ul class="dropdown-list">
+                <li class="nav-item dropdown-list-item-1">
+                  <a class="dropdown-list-item-link" href="#" />English
+                </li>
+                <li class="nav-item dropdown-list-item">
+                  <a class="dropdown-list-item-link" href="#" />русский
+                </li>
+              </ul>
+            </div>
+          </a>
+        </li>
+
+        <li class="nav-item nav-contact">
+          <a href="./contact.html" class="contact-link" alt="Nav Bar link"
+            >Contact-us</a
+          >
+        </li>
+
+        <li onclick="hideSidebar()" class="close-menu">
+          <a href="#" class="close-menu-icon" alt="Nav Bar link"
+            ><svg
+              fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 384 512"
+            >
+              <!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+              <path
+                d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"
+              /></svg
+          ></a>
+        </li>
+      </ul>
+      <ul class="nav-bar">
+        <li class="nav-item logo">
+          <a href="#" class="logo-link" alt="Nav-Bar-link">
+            <img
+              src="../images/logo.png"
+              alt="Logo of Global Pathway Alliance"
+            />
+          </a>
+        </li>
+
+        <li class="nav-item nav-home hide-on-mobile">
+          <a href="./index.html" class="nav-link" alt="Nav-Bar-link-home"
+            >Home</a
+          >
+        </li>
+
+        <li class="nav-item nav-about hide-on-mobile">
+          <a href="./about.html" class="nav-link" alt="Nav-Bar-link-About-us"
+            >About Us</a
+          >
+        </li>
+
+        <li class="nav-item nav-recruitment hide-on-mobile">
+          <a href="./services.html" class="nav-link" alt="Nav-Bar-link-services"
+            >services</a
+          >
+        </li>
+
+        <li class="nav-item nav-policy hide-on-mobile">
+          <a
+            href="./policy.html"
+            class="nav-link"
+            alt="Nav-Bar-link-recruitment-procedure"
+            >recruitment procedure</a
+          >
+        </li>
+
+        <li class="nav-item nav-team hide-on-mobile">
+          <a href="./policy.html" class="nav-link" alt="Nav-Bar-link">policy</a>
+        </li>
+
+        <li class="nav-item nav-services hide-on-mobile">
+          <a href="./team.html" class="nav-link" alt="Nav-Bar-link-team"
+            >Team</a
+          >
+        </li>
+
+        <li class="nav-item nav-language hide-on-mobile">
+          <a href="#" class="nav-link" alt="Nav-Bar-link-language"
+            ><div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="globe-icon"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m7.5-6.923c-.67.204-1.335.82-1.887 1.855q-.215.403-.395.872c.705.157 1.472.257 2.282.287zM4.249 3.539q.214-.577.481-1.078a7 7 0 0 1 .597-.933A7 7 0 0 0 3.051 3.05q.544.277 1.198.49zM3.509 7.5c.036-1.07.188-2.087.436-3.008a9 9 0 0 1-1.565-.667A6.96 6.96 0 0 0 1.018 7.5zm1.4-2.741a12.3 12.3 0 0 0-.4 2.741H7.5V5.091c-.91-.03-1.783-.145-2.591-.332M8.5 5.09V7.5h2.99a12.3 12.3 0 0 0-.399-2.741c-.808.187-1.681.301-2.591.332zM4.51 8.5c.035.987.176 1.914.399 2.741A13.6 13.6 0 0 1 7.5 10.91V8.5zm3.99 0v2.409c.91.03 1.783.145 2.591.332.223-.827.364-1.754.4-2.741zm-3.282 3.696q.18.469.395.872c.552 1.035 1.218 1.65 1.887 1.855V11.91c-.81.03-1.577.13-2.282.287zm.11 2.276a7 7 0 0 1-.598-.933 9 9 0 0 1-.481-1.079 8.4 8.4 0 0 0-1.198.49 7 7 0 0 0 2.276 1.522zm-1.383-2.964A13.4 13.4 0 0 1 3.508 8.5h-2.49a6.96 6.96 0 0 0 1.362 3.675c.47-.258.995-.482 1.565-.667m6.728 2.964a7 7 0 0 0 2.275-1.521 8.4 8.4 0 0 0-1.197-.49 9 9 0 0 1-.481 1.078 7 7 0 0 1-.597.933M8.5 11.909v3.014c.67-.204 1.335-.82 1.887-1.855q.216-.403.395-.872A12.6 12.6 0 0 0 8.5 11.91zm3.555-.401c.57.185 1.095.409 1.565.667A6.96 6.96 0 0 0 14.982 8.5h-2.49a13.4 13.4 0 0 1-.437 3.008M14.982 7.5a6.96 6.96 0 0 0-1.362-3.675c-.47.258-.995.482-1.565.667.248.92.4 1.938.437 3.008zM11.27 2.461q.266.502.482 1.078a8.4 8.4 0 0 0 1.196-.49 7 7 0 0 0-2.275-1.52c.218.283.418.597.597.932m-.488 1.343a8 8 0 0 0-.395-.872C9.835 1.897 9.17 1.282 8.5 1.077V4.09c.81-.03 1.577-.13 2.282-.287z"
+                ></path>
+              </svg>
+              <svg
+                class="dropdown-svg"
+                fill="currentColor"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 320 512"
+              >
+                <!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                <path
+                  d="M137.4 374.6c12.5 12.5 32.8 12.5 45.3 0l128-128c9.2-9.2 11.9-22.9 6.9-34.9s-16.6-19.8-29.6-19.8L32 192c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9l128 128z"
+                />
+              </svg>
+            </div>
+            <div class="dropdown-list-container">
+              <ul class="dropdown-list">
+                <li class="nav-item dropdown-list-item-1">
+                  <a
+                    class="dropdown-list-item-link"
+                    href="./services.html"
+                  />English
+                </li>
+                <li class="nav-item dropdown-list-item">
+                  <a
+                    class="dropdown-list-item-link"
+                    href="../ru/services.html"
+                  />русский
+                </li>
+              </ul>
+            </div>
+          </a>
+        </li>
+
+        <li class="nav-item nav-contact hide-on-mobile">
+          <a href="./contact.html" class="contact-link" alt="Nav Bar link"
+            >Contact-us</a
+          >
+        </li>
+
+        <li onclick="showSidebar()" class="menu-icon">
+          <a href="#" class="menu-icon-link" alt="Nav Bar link"
+            ><svg
+              fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 448 512"
+            >
+              <!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+              <path
+                d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z"
+              /></svg
+          ></a>
+        </li>
+      </ul>
+    </nav>
     <section class="section-teams">
       <div class="container-m">
         <div class="heading-teams-container">
@@ -71,5 +297,131 @@
         </div>
       </div>
     </section>
+
+    <footer class="footer-container">
+      <div class="footer-grid">
+        <div class="footer-grid-1 footer-grid-item">
+          <h2 class="footer-grid-heading">Our Contact</h2>
+          <div class="grid-1-flex--box address-russia">
+            <p class="address-text">
+              <strong>Global Pathway Alliance</strong><br />Moscow , Street
+              Khabarova , 2 <br />Russia
+            </p>
+          </div>
+          <div class="grid-1-flex--box address-india">
+            <p class="address-text">
+              <strong>Mittar Immigration</strong><br />Near Bus Stand, Moga<br />
+              Punjab, India
+            </p>
+          </div>
+          <div class="grid-1-flex--box contact-phone-mail">
+            <a href="tel:(+91) 9780153819" class="footer-link"
+              >(+91)9780153819</a
+            >
+            <a href="tel:8(968)822-00-60" class="footer-link"
+              >8 (968) 822-00-60</a
+            >
+            <a href="mailto:email@domainname.com" class="footer-link"
+              >email@domainname.com</a
+            >
+          </div>
+        </div>
+        <div class="footer-grid-2 footer-grid-item">
+          <h2 class="footer-grid-heading">Quick Links</h2>
+          <ul class="footer-links-list">
+            <li class="footer-links-list-item">
+              <a class="footer-link" href="#">About us</a>
+            </li>
+            <li class="footer-links-list-item">
+              <a class="footer-link" href="#">Services</a>
+            </li>
+            <li class="footer-links-list-item">
+              <a class="footer-link" href="#">Recruitment Procedure</a>
+            </li>
+            <li class="footer-links-list-item">
+              <a class="footer-link" href="#">Policy</a>
+            </li>
+            <li class="footer-links-list-item">
+              <a class="footer-link" href="#">Team</a>
+            </li>
+            <li class="footer-links-list-item">
+              <a class="footer-link" href="#">Contact us</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-grid-3 footer-grid-item">
+          <h2 class="footer-grid-heading">Our Newsletter</h2>
+          <p class="newsletter-text">
+            Subscribe to our newsletter to get the latest updates on our
+            services and job openings.
+          </p>
+          <form class="footer-form">
+            <input
+              type="email"
+              class="footer-input-box"
+              placeholder="Enter your email"
+            /><br />
+            <button type="submit" class="footer-newsletter-button">
+              Subscribe
+            </button>
+          </form>
+        </div>
+      </div>
+      <div class="sub-footer">
+        <p class="sub-footer--text">
+          © Pathway Global 2025 All rights reserved.
+        </p>
+        <div class="sub-footer--icon">
+          <a href="#" class="sub-footer--icon-link"
+            ><svg
+              fill="currentColor"
+              class="footer-icon icon--fb"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 512 512"
+            >
+              <!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+              <path
+                d="M512 256C512 114.6 397.4 0 256 0S0 114.6 0 256C0 376 82.7 476.8 194.2 504.5V334.2H141.4V256h52.8V222.3c0-87.1 39.4-127.5 125-127.5c16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1c-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H287V510.1C413.8 494.8 512 386.9 512 256h0z"
+              /></svg
+          ></a>
+          <a href="#" class="sub-footer--icon-link"
+            ><svg
+              fill="currentColor"
+              class="footer-icon icon--fb"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 512 512"
+            >
+              <!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+              <path
+                d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"
+              /></svg
+          ></a>
+          <a href="#" class="sub-footer--icon-link"
+            ><svg
+              fill="currentColor"
+              class="footer-icon icon--fb"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 448 512"
+            >
+              <!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+              <path
+                d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"
+              /></svg
+          ></a>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      function showSidebar() {
+        const sidebar = document.querySelector(".sidebar");
+        sidebar.style.display = "flex";
+      }
+
+      function hideSidebar() {
+        const sidebar = document.querySelector(".sidebar");
+        sidebar.style.display = "none";
+      }
+    </script>
   </body>
 </html>
