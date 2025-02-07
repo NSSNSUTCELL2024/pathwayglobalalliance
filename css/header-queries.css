@@ -1,0 +1,41 @@
+@media (max-width: 72em) {
+  html {
+    font-size: 50%;
+  }
+  .logo {
+    margin-: 3rem;
+  }
+
+  .nav-contact {
+    margin-left: 3rem;
+  }
+}
+
+@media (max-width: 60em) {
+  .nav-bar {
+    gap: 1.5rem;
+  }
+
+  .nav-contact {
+    margin-left: 2rem;
+  }
+}
+
+@media (max-width: 55em) {
+  .hide-on-mobile {
+    display: none;
+  }
+
+  .menu-icon svg {
+    display: block;
+  }
+
+  .logo {
+    margin-left: 7rem;
+  }
+
+  .dropdown-list-container {
+    right: 6rem;
+    top: -3rem;
+  }
+}

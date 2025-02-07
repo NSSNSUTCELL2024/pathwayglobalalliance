@@ -6,7 +6,7 @@
 
 html {
   scroll-behavior: smooth;
-  /* font-size: 62.5%;   */
+  font-size: 62.5%;
 }
 
 body {
@@ -17,25 +17,29 @@ body {
   background-color: #1c1c1c;
 }
 
+nav {
+  z-index: 999;
+}
+
 .heading-primaryy {
   color: black;
-  font-size: 2.5rem;
+  font-size: 4rem;
 }
 
 .heading-secondaryy {
-  font-size: 2.25rem;
+  font-size: 3.6rem;
 }
 
 .heading-tertiaryy {
 }
 
 .padding--right-left {
-  padding-left: 11.25rem;
-  padding-right: 11.25rem;
+  padding-left: 18rem;
+  padding-right: 18rem;
 }
 
 .container-m {
-  padding-bottom: 1.25rem;
+  padding-bottom: 2.4rem;
 }
 
 .heading-policy-container {
@@ -45,20 +49,20 @@ body {
   background-position: 100% 35%;
   background-size: cover;
   background-blend-mode: darken;
-  height: 23.125rem;
+  height: 37rem;
 }
 
 .heading-policy-text .heading-primaryy {
   text-align: center;
-  padding-top: 6.25rem;
+  padding-top: 10rem;
   color: white;
 }
 
 .sub-heading {
   color: white;
-  font-size: 1rem;
-  margin-top: 0.9375rem;
-  padding-bottom: 6.25rem;
+  font-size: 1.6rem;
+  margin-top: 1.5rem;
+  padding-bottom: 10rem;
   text-align: center;
   text-align: align;
   font-weight: 500;
@@ -83,9 +87,9 @@ body {
 /* *********************** */
 
 .policy-heading {
-  padding-bottom: 0.4375rem;
-  margin-top: 2.5rem;
-  margin-bottom: 3.75rem;
+  padding-bottom: 0.7rem;
+  margin-top: 4rem;
+  margin-bottom: 6rem;
   color: #fff;
   border-bottom: #333333;
   display: inline-block;
@@ -95,17 +99,17 @@ body {
 .policy-heading::before {
   content: "";
   position: absolute;
-  margin-left: 11.875rem;
+  margin-left: 19rem;
   border-radius: 20px;
-  bottom: -0.3125rem;
+  bottom: -0.5rem;
   left: 0;
-  width: 8.75rem;
+  width: 14rem;
   height: 2.5px;
   background: linear-gradient(to right, #1c1c1c, #e62026 90%);
 }
 
 .policy-para {
-  font-size: 1.0625rem;
+  font-size: 1.7rem;
   /* text-align: center; */
   line-height: 2;
 }
@@ -115,61 +119,61 @@ body {
 /* ****************************** */
 
 .policy--hover {
-  box-shadow: 0.5rem 0.5rem 8rem 0.8rem rgb(80, 80, 80);
+  box-shadow: 0.8rem 0.8rem 12.8rem 12.8rem rgb(80, 80, 80);
   transition: all 0.3s ease;
 }
 .policy--hover:hover {
-  box-shadow: 0.5rem 0.5rem 4rem 1rem rgb(80, 80, 80);
+  box-shadow: 0.8rem 0.8rem 6.4rem 1.6rem rgb(80, 80, 80);
 }
 
 .introduction-PGA {
-  padding: 3rem 0 3rem 0;
-  font-size: 1rem;
+  padding: 4.8rem 0 4.8rem 0;
+  font-size: 1.6rem;
   font-weight: 400;
   letter-spacing: 1px;
-  line-height: 1.5rem;
+  line-height: 2.4rem;
 }
 
 .objectives {
-  margin-top: 3rem;
-  margin-bottom: 3rem;
+  margin-top: 4.8rem;
+  margin-bottom: 4.8rem;
   background-color: #1c1c1c;
   border-radius: 15px;
-  padding: 2rem 0 2rem 0;
+  padding: 3.2rem 0 3.2rem 0;
 }
 
 .policy-list {
-  padding-left: 2rem;
+  padding-left: 3.2rem;
 }
 
 .policy-list-heading {
-  font-size: 2rem;
-  padding-bottom: 2rem;
+  font-size: 3.2rem;
+  padding-bottom: 3.2rem;
   color: #eb4d51;
 }
 
 .list-item {
-  font-size: 1.25rem;
+  font-size: 2.4rem;
   font-weight: 400;
   margin-bottom: 1rem;
   color: #ddd;
-  margin-left: 2rem;
-  margin-right: 2rem;
-  line-height: 2rem;
+  margin-left: 3.2rem;
+  margin-right: 3.2rem;
+  line-height: 3.2rem;
 }
 
 .policy-framework {
-  margin-top: 6rem;
+  margin-top: 9.6rem;
   margin-bottom: 3rem;
   background-color: #1c1c1c;
   border-radius: 15px;
-  padding: 2rem 0 2rem 0;
+  padding: 3.2rem 0 3.2rem 0;
   position: relative;
 }
 
 .policy-container-heading {
   text-align: center;
-  font-size: 3rem;
+  font-size: 4.8rem;
   font-weight: 700;
   /* display: inline-block; */
   left: 50%;
@@ -180,50 +184,50 @@ body {
 }
 
 .policy-framework h2 {
-  padding-top: 7rem;
+  padding-top: 11.2rem;
 }
 
 .policy-strategy {
-  margin-top: 6rem;
-  margin-bottom: 3rem;
+  margin-top: 9.6rem;
+  margin-bottom: 4.8rem;
   background-color: #1c1c1c;
   border-radius: 15px;
-  padding: 2rem 0 2rem 0;
+  padding: 3.2rem 0 3.2rem 0;
   position: relative;
 }
 
 .policy-governance {
-  margin-top: 6rem;
-  margin-bottom: 3rem;
+  margin-top: 9.6rem;
+  margin-bottom: 4.8rem;
   background-color: #1c1c1c;
   border-radius: 15px;
-  padding: 2rem 0 2rem 0;
+  padding: 3.2rem 0 3.2rem 0;
   position: relative;
 }
 
 .policy-conclusion {
-  margin-top: 6rem;
-  margin-bottom: 3rem;
+  margin-top: 9.6rem;
+  margin-bottom: 4.8rem;
   background-color: #1c1c1c;
   border-radius: 15px;
-  padding: 2rem 0 2rem 0;
+  padding: 3.2rem 0 3.2rem 0;
   position: relative;
   text-align: center;
   font-size: 3rem;
 }
 
 .conclusion-heading {
-  font-size: 2.5rem;
-  padding-bottom: 2rem;
+  font-size: 2.8rem;
+  padding-bottom: 3.2rem;
   color: #eb4d51;
 }
 
 .conclusion-text {
-  font-size: 1.25rem;
+  font-size: 2.4rem;
   font-weight: 400;
-  margin-bottom: 1rem;
+  margin-bottom: 1.6rem;
   color: #ddd;
-  margin-left: 2rem;
-  margin-right: 2rem;
-  line-height: 2rem;
+  margin-left: 3.2rem;
+  margin-right: 3.2rem;
+  line-height: 3.2rem;
 }

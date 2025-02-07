@@ -5,7 +5,7 @@
 }
 
 html {
-  /* font-size: 62.5%; */
+  font-size: 62.5%;
   scroll-behavior: smooth;
 }
 
@@ -19,23 +19,23 @@ body {
 
 .heading-primaryy {
   color: black;
-  font-size: 2.5rem;
+  font-size: 4rem;
 }
 
 .heading-secondaryy {
-  font-size: 2.25rem;
+  font-size: 3.6rem;
 }
 
 .heading-tertiaryy {
 }
 
 .padding--right-left {
-  padding-left: 11.25rem;
-  padding-right: 11.25rem;
+  padding-left: 12rem;
+  padding-right: 12rem;
 }
 
 .container-m {
-  padding-bottom: 2.5rem;
+  padding-bottom: 4rem;
 }
 
 .heading-policy-container {
@@ -45,20 +45,20 @@ body {
   background-position: 100% 35%;
   background-size: cover;
   background-blend-mode: darken;
-  height: 23.125rem;
+  height: 37rem;
 }
 
 .heading-policy-text .heading-primaryy {
   text-align: center;
-  padding-top: 6.25rem;
+  padding-top: 10rem;
   color: white;
 }
 
 .sub-heading {
   color: white;
-  font-size: 1rem;
-  margin-top: 0.9375rem;
-  padding-bottom: 6.25rem;
+  font-size: 1.6rem;
+  margin-top: 1.5rem;
+  padding-bottom: 10rem;
   text-align: center;
   text-align: align;
   font-weight: 500;
@@ -83,16 +83,16 @@ body {
 /* ************************ */
 
 .member-data {
-  padding-top: 6.25rem;
+  padding-top: 10rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 6.25rem;
+  gap: 10rem;
 }
 
 .member-img {
-  height: 21.875rem;
-  width: 21.875rem;
+  height: 35rem;
+  width: 35rem;
   border-radius: 11px;
 }
 
@@ -103,34 +103,34 @@ body {
 }
 
 .member-qualifications {
-  font-size: 1.125rem;
+  font-size: 1.8rem;
   color: #eb4d51;
   font-weight: 600;
-  margin-bottom: 0.9375rem;
+  margin-bottom: 1.5rem;
 }
 
 .member-name {
-  font-size: 2rem;
+  font-size: 3.2rem;
   color: white;
   font-weight: 700;
-  margin-bottom: 0.3125rem;
+  margin-bottom: 0.5rem;
 }
 
 .underline {
   /* content: ""; */
   /* position: absolute; */
-  margin-left: 0.3125rem;
-  margin-bottom: 2rem;
+  margin-left: 0.5rem;
+  margin-bottom: 3.2rem;
   border-radius: 7px;
-  bottom: -0.3125rem;
+  bottom: -0.5rem;
   left: 0;
-  width: 4rem;
+  width: 6.4rem;
   height: 2px;
   background: linear-gradient(to right, #1c1c1c, #e62026 90%);
 }
 
 .member-description {
-  font-size: 1rem;
+  font-size: 1.6rem;
   letter-spacing: 0.8;
   line-height: 1.6;
   color: #ddd;

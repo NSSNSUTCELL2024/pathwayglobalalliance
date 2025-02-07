@@ -5,7 +5,7 @@
 }
 
 html {
-  /* font-size: 62.5%; */
+  font-size: 62.5%;
   scroll-behavior: smooth;
 }
 
@@ -18,24 +18,25 @@ body {
 
 .heading-primaryy {
   color: #e62026;
-  font-size: 2.5rem;
+  font-size: 4rem;
 }
 
 .heading-secondaryy {
-  font-size: 2.25rem;
+  font-size: 3.6rem;
 }
 
 .heading-tertiaryy {
 }
 
 .padding--right-left {
-  padding-left: 11.25rem;
-  padding-right: 11.25rem;
+  padding-left: 12rem;
+  padding-right: 12rem;
 }
 
 .container-m {
-  padding-bottom: 1.25rem;
+  padding-bottom: 2.4rem;
   background-color: #1c1c1c;
+  padding: 4rem;
 }
 
 .heading-teams-container {
@@ -45,20 +46,20 @@ body {
   background-position: 100% 65%;
   background-size: cover;
   background-blend-mode: darken;
-  height: 23.125rem;
+  height: 37rem;
 }
 
 .heading-teams-text .heading-primaryy {
   text-align: center;
-  padding-top: 6.25rem;
+  padding-top: 10rem;
   color: white;
 }
 
 .sub-heading {
   color: white;
-  font-size: 1rem;
-  margin-top: 0.9375rem;
-  padding-bottom: 6.25rem;
+  font-size: 1.6rem;
+  margin-top: 1.5rem;
+  padding-bottom: 10rem;
   text-align: center;
   text-align: align;
   font-weight: 500;
@@ -87,8 +88,8 @@ body {
 }
 
 .teams-heading {
-  padding-bottom: 0.4375rem;
-  margin-top: 2.5rem;
+  padding-bottom: 0.5rem;
+  margin-top: 4rem;
   color: #fff;
   border-bottom: #333333;
   display: inline-block;
@@ -98,11 +99,11 @@ body {
 .teams-heading::before {
   content: "";
   position: absolute;
-  margin-left: 11.5625rem;
+  margin-left: 12rem;
   border-radius: 20px;
-  bottom: -0.3125rem;
+  bottom: -0.5rem;
   left: 0;
-  width: 8.75rem;
+  width: 14rem;
   height: 2.5px;
   background: linear-gradient(to right, #1c1c1c, #e62026 90%);
 }
@@ -112,23 +113,23 @@ body {
 /* *********************** */
 
 .teams-images-grid {
-  margin-top: 3.75rem;
+  margin-top: 6rem;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  column-gap: 0.625rem;
-  row-gap: 2.5rem;
+  column-gap: 1rem;
+  row-gap: 4rem;
 }
 
 .team-card {
   justify-self: center;
-  box-shadow: 0 0.4375rem 0.4375rem 0.1875rem rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0.7rem 0.7rem 0.3rem rgba(0, 0, 0, 0.2);
   border-radius: 11px;
   overflow: hidden;
   transition: all 0.3s;
 }
 
 .card-image {
-  width: 14.0625rem;
+  width: 22.5rem;
 }
 
 .team-card .card-link,
@@ -140,17 +141,17 @@ body {
 
 .team-card:hover {
   transform: translateY(-1rem);
-  box-shadow: 0 0.8rem 0.5625rem 0.1875rem rgba(150, 150, 150, 0.2);
+  box-shadow: 0 1.28rem 0.9rem 0.3rem rgba(150, 150, 150, 0.2);
 }
 
 .team-image {
-  height: 15.625rem;
-  padding-bottom: 1.5625rem;
+  height: 25rem;
+  padding-bottom: 2.5rem;
 }
 
 .person-name {
-  padding-bottom: 1.125rem;
-  padding-left: 0.9375rem;
+  padding-bottom: 1.8rem;
+  padding-left: 1.5rem;
   color: white;
   font-weight: 700;
   text-decoration: none;
@@ -163,11 +164,11 @@ body {
 }
 
 .card-content p {
-  padding-left: 0.9375rem;
-  font-size: 0.75rem;
+  padding-left: 1.5rem;
+  font-size: 1.2rem;
   color: #777;
   font-weight: 600;
-  padding-bottom: 1.25rem;
+  padding-bottom: 2.4rem;
 }
 
 .card-container {

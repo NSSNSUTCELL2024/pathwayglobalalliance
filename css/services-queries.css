@@ -1,34 +1,12 @@
-@media (max-width: 94em) {
-  .padding--right-left {
-    padding-right: 6rem;
-    padding-left: 6rem;
-  }
-}
-
-@media (max-width: 94em) {
+@media (max-width: 60em) {
   html {
-    font-size: 90%;
+    font-size: 50%;
   }
 
   .padding--right-left {
     padding-right: 5rem;
     padding-left: 5rem;
   }
-}
-
-@media (max-width: 79em) {
-  /* html {
-    font-size: 70%;
-  } */
-}
-
-@media (max-width: 70em) {
-}
-
-@media (max-witdth: 67.5em) {
-  /* html {
-    font-size: 60%;
-  } */
 }
 
 @media (max-width: 50em) {

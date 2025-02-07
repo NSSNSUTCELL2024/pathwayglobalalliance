@@ -1,6 +1,21 @@
-@media (max-width: 68.5em) {
+@media (max-width: 72em) {
+  .padding--right-left {
+    padding-right: 6rem;
+    padding-left: 6rem;
+  }
+
   html {
-    font-size: 80%;
+    /* font-size: 80%; */
+  }
+}
+
+@media (max-width: 62em) {
+  html {
+    font-size: 60%;
+  }
+
+  .list-item {
+    font-size: 1.6rem;
   }
 }
 
@@ -11,9 +26,9 @@
   }
 }
 
-@media (max-width: 35em) {
+@media (max-width: 40em) {
   html {
-    font-size: 60%;
+    font-size: 50%;
   }
 
   .padding--right-left {

@@ -6,7 +6,7 @@
 
 html {
   scroll-behavior: smooth;
-  /* font-size: 62.5%;   */
+  font-size: 62.5%;
 }
 
 body {
@@ -17,28 +17,32 @@ body {
   background-color: #1c1c1c;
 }
 
+nav {
+  z-index: 999;
+}
+
 .heading-primaryy {
   color: #fff;
-  font-size: 2.5rem;
+  font-size: 4rem;
 }
 
 .heading-secondaryy {
-  font-size: 2.25rem;
+  font-size: 3.6rem;
   color: #fff;
-  margin-top: 3.5rem;
+  margin-top: 5.6rem;
 }
 
 .heading-tertiaryy {
   color: #e62026;
-  font-size: 1rem;
+  font-size: 1.6rem;
   font-weight: 600;
   letter-spacing: 1.3px;
-  margin-bottom: 5rem;
+  margin-bottom: 8rem;
 }
 
 .padding--right-left {
-  padding-left: 8rem;
-  padding-right: 8rem;
+  padding-left: 12rem;
+  padding-right: 12rem;
 }
 
 .container {
@@ -52,21 +56,21 @@ body {
   background-position: 100% 30%;
   background-size: cover;
   background-blend-mode: darken;
-  height: 23.125rem;
+  height: 37rem;
   width: 100%;
 }
 
 .heading-services-text .heading-primaryy {
   text-align: center;
-  padding-top: 6.25rem;
+  padding-top: 10rem;
   color: white;
 }
 
 .sub-heading {
   color: white;
-  font-size: 1rem;
-  margin-top: 0.9375rem;
-  padding-bottom: 6.25rem;
+  font-size: 1.6rem;
+  margin-top: 1.5rem;
+  padding-bottom: 10rem;
   text-align: center;
   text-align: align;
   font-weight: 500;
@@ -91,7 +95,7 @@ body {
 /* ************************ */
 
 .services-heading {
-  padding-bottom: 3rem;
+  padding-bottom: 4.8rem;
   /* display: inline-block; */
   position: relative;
 }
@@ -102,19 +106,19 @@ body {
   /* margin-left: 8rem; */
   border-radius: 20px;
   display: inline-block;
-  margin-bottom: 2.5rem;
-  bottom: -0.3125rem;
+  margin-bottom: 4rem;
+  bottom: -0.5rem;
   left: 0;
-  width: 20rem;
+  width: 32rem;
   height: 3px;
   background: linear-gradient(to right, #1c1c1c, #e62026 90%);
 }
 
 .para-phrase {
-  font-size: 1rem;
+  font-size: 1.6rem;
   /* font-weight: 500; */
-  margin-bottom: 3rem;
-  line-height: 1.5rem;
+  margin-bottom: 4.8rem;
+  line-height: 2.4rem;
 }
 
 /* ***************************** */
@@ -132,10 +136,10 @@ body {
 .service-flex {
   /* background-color: #ee6367; */
   background-color: #ec4141;
-  margin-bottom: 4rem;
+  margin-bottom: 6.4rem;
   border-radius: 11px;
 
-  box-shadow: 0.5rem 0.5rem 7rem 0.5rem rgba(100, 100, 100, 0.8);
+  box-shadow: 0.8rem 0.8rem 11.2rem 0.8rem rgba(100, 100, 100, 0.8);
   transition: all 0.3s ease;
 
   display: grid;
@@ -145,17 +149,17 @@ body {
 }
 
 .service-flex:hover {
-  box-shadow: 0.5rem 0.5rem 3rem 0.5rem rgb(100, 100, 100);
+  box-shadow: 0.8rem 0.8rem 4.8rem 0.8rem rgb(100, 100, 100);
 }
 
 .service-flex-image {
-  margin-right: 2rem;
+  margin-right: 3.2rem;
   background-size: cover;
   background-position: center center;
 }
 
 .service-flex-content {
-  padding-left: 4rem;
+  padding-left: 6.4rem;
 }
 
 .service-flex-list {
@@ -166,18 +170,18 @@ body {
   /* color: #731013; */
   color: #1c1c1c;
   text-align: center;
-  font-size: 2.5rem;
-  padding-bottom: 2.5rem;
+  font-size: 4rem;
+  padding-bottom: 4rem;
 }
 
 .service-flex-list-item {
-  font-size: 1.25rem;
-  line-height: 1.5rem;
-  padding-bottom: 1.5rem;
+  font-size: 2rem;
+  line-height: 2.4rem;
+  padding-bottom: 2.4rem;
 }
 
 .service-flex-list:last-child {
-  padding-bottom: 3rem;
+  padding-bottom: 4.8rem;
 }
 
 /* Flex Container Images */
