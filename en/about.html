@@ -38,6 +38,55 @@
 			background: #e62026;
 			transform: translateY(-2px);
 		}
+
+		/* Updated hero section */
+		
+		.container-m {
+			padding-bottom: 0;
+		}
+
+		.heading-aboutus-container {
+			background-color: rgba(0, 0, 0, 0.6);
+			background-image: url(../images/About-us.jpg);
+			background-repeat: no-repeat;
+			background-position: 100% 45%;
+			background-size: cover;
+			background-blend-mode: darken;
+			height: 37rem;
+			font-family: 'Poppins', sans-serif;
+		}
+
+		.heading-primaryy {
+			font-size: 4rem;
+			text-align: center;
+			padding-top: 10rem;
+			color: white;
+		}
+
+		.sub-heading {
+			color: white;
+			font-size: 1.6rem;
+			margin-top: 1.5rem;
+			padding-bottom: 10rem;
+			text-align: center;
+			text-align: align;
+			font-weight: 500;
+		}
+
+		.home-link:link,
+		.home-link:visited {
+			color: white;
+			text-decoration: none;
+			font-style: inherit;
+			transition: all 0.3s ease;
+		}
+
+		.home-link:hover,
+		.home-link:hover {
+			color: red;
+			transform: scale(1.1);
+		}
+
 	</style>
 
 </head>
@@ -70,7 +119,7 @@
 						<ul class="nav navbar-nav" style="float: left;">
 							<li><a class="waves-effect waves-dark" href="/en/about.html">About us</a></li>
 							<li><a class="waves-effect waves-dark" href="/en/services.html">Services</a></li>
-							<li><a class="waves-effect waves-dark" href="/en/recruitment-procedure.html">Recruitment Prcedure</a></li>
+							<li><a class="waves-effect waves-dark" href="#">Recruitment Prcedure</a></li>
 							<li><a class="waves-effect waves-dark" href="/en/policy.html">Policy</a></li>
 							<li><a class="waves-effect waves-dark" href="/en/team.html">Team</a></li>
 							<li class="dropdown">
@@ -92,12 +141,17 @@
 			</div>
 		</header><!-- end header -->
 
-		<section id="inner-headline">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-12">
-						<h2 class="pageTitle">About Us</h2>
-					</div>
+		<!-- Hero Section with bg-image -->
+		<section class="section-aboutus">
+      <div class="container-m">
+        <div class="heading-aboutus-container">
+          <div class="heading-aboutus-text">
+            <h2 class="heading-primaryy">About Us</h2>
+            <span class="padding--left"></span>
+            <p class="sub-heading">
+              <a href="index.html" class="home-link">Home</a> - About Us
+            </p>
+          </div>
 				</div>
 			</div>
 		</section>
@@ -360,7 +414,7 @@
 							<ul class="link-list">
 								<li><a class="waves-effect waves-dark" href="/en/about.html">About us</a></li>
 								<li><a class="waves-effect waves-dark" href="/en/services.html">Services</a></li>
-								<li><a class="waves-effect waves-dark" href="/en/recruitment-procedure.html">Recruitment Procedure</a></li>
+								<li><a class="waves-effect waves-dark" href="#">Recruitment Procedure</a></li>
 								<li><a class="waves-effect waves-dark" href="/en/policy.html">Policy</a></li>
 								<li><a class="waves-effect waves-dark" href="/en/team.html">Team</a></li>
 								<li><a class="waves-effect waves-dark" href="/en/contact.html">Contact us</a></li>
