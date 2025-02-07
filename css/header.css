@@ -46,7 +46,6 @@ nav {
 
 .nav-link:hover,
 .nav-link:active {
-  transform: scale(1.1);
   color: #731013;
 }
 
