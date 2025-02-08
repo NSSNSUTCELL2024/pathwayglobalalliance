@@ -1607,16 +1607,25 @@ article img.pull-right, article .align-right{
 		position: absolute;
 	}
   }
+  .dropdown-toggle .waves-effect .waves-dark{
+	padding-top: 29%;
+}
+.caret .lak-lang{
+	padding-top: 22%; padding-left: 0%;
+}
 
 @media (max-width: 767px) {
 .navbar-default .navbar-collapse{border-color: none;/* background: #05142b; */}
-.navbar-default .navbar-toggle .icon-bar {background-color: #ffffff;border-radius: 0;}
+.navbar-default .navbar-toggle .icon-bar {background-color: #1c1c1c;border-radius: 0;}
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
 background-color: rgba(221, 221, 221, 0);
 }
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {border-color: rgb(236, 65, 65);margin-top: 15px;background: #1c1c1c;}
 .flex-caption h3{
 	font-size:28px;
+}
+.dropdown-toggle .waves-effect .waves-dark{
+	padding-top: 0%;
 }
 .navbar .nav > li > a {
     color: #ffffff;
