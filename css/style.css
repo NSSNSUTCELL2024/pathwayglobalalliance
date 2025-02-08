@@ -1792,6 +1792,22 @@ padding-top: 3px;
     overflow: hidden;
 	}
 }
+@media (max-width: 767px) {
+	.navbar-brand .abt-cntct-naav-index{
+		margin-left: 0px;
+	}
+	.abt-cntct-naav-index-img{
+		margin-right: 25px;
+	}
+}
+@media (min-width: 768px) {
+	.navbar-brand .abt-cntct-naav-index{
+		margin-left: -120px;
+	}
+	.abt-cntct-naav-index-img{
+		margin-right: 10px;
+	}
+}
 .tab-section .col{
 	
 }
