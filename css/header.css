@@ -42,16 +42,11 @@ nav {
   letter-spacing: 0.4px;
   color: #fff;
   transition: all 0.3s ease;
-  padding-bottom: 1.5rem;
 }
 
 .nav-link:hover,
 .nav-link:active {
   color: #731013;
-}
-
-.nav-language a {
-  padding-bottom: 0 !important;
 }
 
 .logo {
@@ -179,6 +174,7 @@ nav {
 .sidebar .nav-item a {
   /* width: 100%; */
   color: #000;
+  margin-bottom: 1.5rem;
 }
 
 .sidebar .nav-contact {
