@@ -50,6 +50,10 @@ nav {
   color: #731013;
 }
 
+.nav-language a {
+  padding-bottom: 0 !important;
+}
+
 .logo {
   margin-right: auto;
   margin-left: 5rem;
