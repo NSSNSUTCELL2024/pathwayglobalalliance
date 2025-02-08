@@ -104,10 +104,11 @@ nav {
   z-index: 100;
   background-color: #ddd;
   border-radius: 11px;
+  color: #000;
 }
 
 .nav-language .dropdown-list-container:hover {
-  color: #ddd;
+  color: #ddd !important;
   background-color: #1c1c1c;
 }
 
