@@ -23,19 +23,27 @@
 }
 
 @media (max-width: 30em) {
-  .recruitment-framework {
-    margin-top: 4rem;
-  }
+    .recruitment-framework {
+        margin-top: 4rem;
+    }
 
-  .recruitment-container-heading {
-    font-size: 3.6rem;
-  }
+    .recruitment-container-heading {
+        font-size: 3.6rem;
+    }
 
-  .recruitment-list-heading {
-    font-size: 3.2rem;
-  }
+    .recruitment-list-heading {
+        font-size: 3.2rem;
+    }
 
-  .list-item {
-    font-size: 1.8rem;
-  }
+    .list-item {
+        font-size: 1.8rem;
+    }
+
+    .recruitment-1 .recruitment-list-heading {
+        padding-top: 9rem;
+    }
+
+    .recruitment-framework h2 {
+        padding-top: 2rem;
+    }
 }
