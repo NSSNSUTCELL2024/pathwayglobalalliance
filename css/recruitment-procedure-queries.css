@@ -4,21 +4,42 @@
     }
   }
   
-  @media (max-width: 53.25em) {
+@media (max-width: 53.25em) {
     .padding--right-left {
-      padding-right: 3rem;
-      padding-left: 3rem;
+        padding-right: 3rem;
+        padding-left: 3rem;
     }
-  }
+}
   
-  @media (max-width: 35em) {
+@media (max-width: 35em) {
     html {
-      font-size: 60%;
+        font-size: 60%;
     }
   
     .padding--right-left {
-      padding-right: 2.5rem;
-      padding-left: 2.5rem;
+        padding-right: 2.5rem;
+        padding-left: 2.5rem;
     }
+}
+
+@media (max-width: 30em) {
+  .recruitment-framework {
+    margin-top: 4rem;
   }
-  
+
+  .recruitment-container-heading {
+    font-size: 3.6rem;
+  }
+
+  .recruitment-list-heading {
+    font-size: 3.2rem;
+  }
+
+  .list-item {
+    font-size: 1.8rem;
+  }
+
+  .recruitment-framework h2 {
+    padding-top: 1rem;
+  }
+}
