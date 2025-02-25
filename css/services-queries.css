@@ -22,3 +22,24 @@
 
 @media (max-width: 28em) {
 }
+
+@media (max-width: 27em) {
+  .service-flex-content {
+    padding: 1rem;
+    margin-left: 2rem;
+  }
+
+  .service-flex-heading {
+    font-size: 3.2rem;
+    margin-top: 2rem;
+  }
+
+  .heading-services-container {
+    background-position: 65% 100%;
+    height: 30rem;
+  }
+
+  .service-flex-list-item {
+    font-size: 1.8rem;
+  }
+}
