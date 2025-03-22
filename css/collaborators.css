@@ -1,0 +1,90 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+}
+
+.heading-primaryy {
+  color: #e62026;
+  font-size: 4rem;
+}
+
+.heading-secondaryy {
+  font-size: 3.6rem;
+}
+
+.heading-tertiaryy {
+}
+
+.padding--right-left {
+  padding-left: 12rem;
+  padding-right: 12rem;
+}
+
+.container-m {
+  padding-bottom: 2.4rem;
+  background-color: #1c1c1c;
+}
+
+.heading-collaborators-container {
+  background-color: rgba(0, 0, 0, 0.6);
+  background-image: url(../images/global_partnerships.webp);
+  background-repeat: no-repeat;
+  background-position: 100% 65%;
+  background-size: cover;
+  background-blend-mode: darken;
+  height: 37rem;
+}
+
+.heading-collaborators-text .heading-primaryy {
+  text-align: center;
+  padding-top: 10rem;
+  color: white;
+}
+
+.sub-heading {
+  color: white;
+  font-size: 1.6rem;
+  margin-top: 1.5rem;
+  padding-bottom: 10rem;
+  text-align: center;
+  text-align: align;
+  font-weight: 500;
+}
+
+.home-link:link,
+.home-link:visited {
+  color: white;
+  text-decoration: none;
+  font-style: inherit;
+  transition: all 0.3s ease;
+}
+
+.home-link:hover,
+.home-link:hover {
+  color: #e62026;
+  transform: scale(1.1);
+}
+
+/* ************************ */
+/* *****Collaborators****** */
+/* ************************ */
+.header-primary-collaboration {
+}
+
+.heading-collaboration-container {
+  font-size: 2rem;
+  font-color: #e62026;
+}
