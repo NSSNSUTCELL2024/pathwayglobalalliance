@@ -19,6 +19,103 @@
     <link rel="stylesheet" href="../css/footer.css" />
     <link rel="stylesheet" href="../css/footer-queries.css" />
     <title>Pathway Global Alliance</title>
+    <style>
+      body {
+  font-family: "Arial", sans-serif;
+  background-color: #e0f7fa;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.collaborators{
+  background-color: #e0f7fa;
+}
+h1 {
+  text-align: left; 
+  margin: 20px 0;
+  font-size: 2.5em;
+  color: #19366b; 
+}
+
+.collaborators-description {
+  text-align: left; 
+  color: #555;
+  margin-bottom: 40px;
+}
+.collaborators {
+  text-align: center;
+  padding: 10px 20px;
+}
+
+.collaborators h2 {
+  color: #003366;
+  font-size: 200%;
+  margin-bottom: 30px; 
+}
+
+.collaborator-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 50px 20px; 
+  max-width: 1200px; 
+  margin: 0 auto; 
+}
+
+.collaborator {
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto; 
+}
+
+.collaborator img {
+  max-width: 60%; 
+  height: auto;
+  transition: transform 0.3s;
+}
+
+.collaborator:hover img {
+  transform: scale(1.15); 
+}
+
+@media (max-width: 1200px) {
+  .collaborator-grid {
+    grid-template-columns: repeat(3, 1fr); 
+  }
+}
+
+@media (max-width: 800px) {
+  .collaborator-grid {
+    grid-template-columns: repeat(3, 1fr); 
+  }
+  h1{
+    font-size: 1.8rem;
+    margin: 10px;
+  }
+  .collaborators-description{
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .collaborator-grid {
+    grid-template-columns: repeat(2, 1fr); 
+  }
+
+  .collaborator img {
+    max-width: 80%; 
+  }
+  h1{
+    font-size: 1.5rem;
+    margin: 10px;
+  }
+  .collaborators-description{
+    font-size: 0.9rem;
+  }
+}
+
+    </style>
   </head>
   <body>
     <nav class="nav-bar-container">
@@ -257,11 +354,97 @@
             </p>
           </div>
         </div>
+        
       </div>
     </section>
-    <section class="section-collaborators">
-      <div class="header-primary-collaboration"><h2 class="heading-collaboration-container">Our Collaborators</h2></div>
-    </section>
+    <section class="collaborators">
+      <h1>Our Collaborators</h1> 
+      <p class="collaborators-description">
+          At NSS NSUT, we believe that collaboration is key to creating a meaningful impact in our community. We are proud to partner with a diverse range of organizations, institutions, and individuals who share our vision of fostering social responsibility and empowering communities. Together, we work towards common goals that address pressing societal issues and promote sustainable development.
+Join Us as a Collaborator
+If you represent an organization or institution that shares our commitment to community service and social impact, we invite you to partner with NSS NSUT. Together, we can amplify our efforts and drive meaningful change.
+To explore collaboration opportunities, please reach out to us at <b>nsscoordinatornsut@gmail.com</b>. We look forward to working together to create a better future for our communities.
+
+        </p>
+      <br>
+      <br>
+      <br>
+      <div class="collaborator-grid">
+      </a>
+          <a href="https://www.aiims.edu/index.php/en" class="collaborator" target="_blank">
+              <img src="/images/logo.png" alt="Collaborator">
+          </a>
+          <a href="https://www.mod.gov.in/dod/directorate-general-armed-force-medical-services" class="collaborator" target="_blank">
+              <img src="images/colobrators-image/armed-forces-logo.png" alt="Collaborator">
+          </a>
+          <a href="https://www.pmindia.gov.in/hi/government_tr_rec/%E0%A4%AC%E0%A5%87%E0%A4%9F%E0%A5%80-%E0%A4%AC%E0%A4%9A%E0%A4%BE%E0%A4%93-%E0%A4%AC%E0%A5%87%E0%A4%9F%E0%A5%80-%E0%A4%AA%E0%A4%A2%E0%A4%BC%E0%A4%BE%E0%A4%93-%E0%A4%AC%E0%A4%BE%E0%A4%B2/" class="collaborator" target="_blank">
+              <img src="images/colobrators-image/beti-logo.png" alt="Collaborator">
+          </a>
+          <a href="https://www.bsf.gov.in/@frontiergujarat" class="collaborator" target="_blank">
+              <img src="images/colobrators-image/bsf-gujrat.png" alt="Collaborator">
+          </a>
+          <a href="https://clovedental.in/" class="collaborator" target="_blank">
+              <img src="images/colobrators-image/clove-dental-logo.png" alt="Collaborator">
+          </a>
+          <a href="https://datri.org/" class="collaborator" target="_blank">
+              <img src="images/colobrators-image/darti-logo.png" alt="Collaborator">
+          </a>
+          <a href="https://dsacs.delhi.gov.in/" class="collaborator" target="_blank">
+              <img src="images/colobrators-image/delhi-aids-logo.png" alt="Collaborator">
+          </a>
+          <a href="https://delhipolice.gov.in/" class="collaborator" target="_blank">
+              <img src="images/colobrators-image/delhi-police-logo.png" alt="Collaborator">
+          </a>
+          <a href="https://dmsouthwest.delhi.gov.in/about-district/whos-who/" class="collaborator" target="_blank">
+              <img src="images/colobrators-image/dm-sw.png" alt="Collaborator">
+          </a>
+          <a href="https://ekbharat.gov.in/" class="collaborator" target="_blank">
+              <img src="images/colobrators-image/ek-bharat-shrest-bharat.png" alt="Collaborator">
+          </a>
+          <a href="https://www.eci.gov.in/" class="collaborator" target="_blank">
+              <img src="images/colobrators-image/election-logo.png" alt="Collaborator">
+          </a>
+          <a href="https://fitindia.gov.in/" class="collaborator" target="_blank">
+              <img src="images/colobrators-image/FIT_Logo_10.png" alt="Collaborator">
+          </a>
+          <a href="https://www.manipalhospitals.com/delhi/" class="collaborator" target="_blank">
+              <img src="images/colobrators-image/manipal-hospital-logo.png" alt="Collaborator">
+          </a>
+          <a href="https://www.education.gov.in/" class="collaborator" target="_blank">
+              <img src="images/colobrators-image/mhrd-logo.png" alt="Collaborator">
+          </a>
+          <a href="https://ayush.gov.in/#!/" class="collaborator" target="_blank">
+              <img src="images/colobrators-image/Ministery-of-ayush.png" alt="Collaborator">
+          </a>
+          <a href="https://nmba.dosje.gov.in/" class="collaborator" target="_blank">
+              <img src="images/colobrators-image/nasha-mukt-bharat-abhiyan.png" alt="Collaborator">
+          </a>
+          <a href="https://poshanabhiyaan.gov.in/" class="collaborator" target="_blank">
+              <img src="images/colobrators-image/poshan-abhiyan.png" alt="Collaborator">
+          </a>
+          <a href="https://rakshinproject.org/" class="collaborator" target="_blank">
+              <img src="images/colobrators-image/rakshin-project-logo.png" alt="Collaborator">
+          </a>
+          <a href="https://robinhoodarmy.com/" class="collaborator" target="_blank">
+              <img src="images/colobrators-image/RHA-Logo.png" alt="Collaborator">
+          </a>
+          <a href="https://sakshi.org.in/" class="collaborator" target="_blank">
+              <img src="images/colobrators-image/Sakshi_Logo.png" alt="Collaborator">
+          </a>
+          <a href="https://swachhbharatmission.ddws.gov.in/" class="collaborator" target="_blank">
+              <img src="images/colobrators-image/swach-bharat-abhiyan-logo.png" alt="Collaborator">
+          </a>
+          <a href="https://unnatbharatabhiyan.gov.in/" class="collaborator" target="_blank">
+              <img src="images/colobrators-image/unnat-bharat-logo.jpg" alt="Collaborator">
+          </a>
+          <a href="https://www.vegasmall.in/" class="collaborator" target="_blank">
+              <img src="images/colobrators-image/vegas-logo.png" alt="Collaborator">
+          </a>
+          <a href="https://merimaatimeradesh.gov.in/" class="collaborator" target="_blank">
+              <img src="images/colobrators-image/meri-matti-mera-desh.png" alt="Collaborator">
+          </a>
+      </div>
+  </section>
 
     <footer class="footer-container">
       <div class="footer-grid">
