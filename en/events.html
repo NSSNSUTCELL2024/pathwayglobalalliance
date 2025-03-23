@@ -10,10 +10,12 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
-    <link rel="icon" type="image/x-icon" href="/images/logo.png">
-    <link rel="stylesheet" href="/css/Teams.css" />
-    <link rel="stylesheet" href="/css/teams-queries.css" />
-    <link rel="stylesheet" href="/css/animation.css" />
+    <link rel="icon" type="image/x-icon" href="/images/logo.png" />
+    <link rel="stylesheet" href="/css/events.css" />
+    <link rel="stylesheet" href="/css/events-queries.css" />
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
     <link rel="stylesheet" href="../css/header.css" />
     <link rel="stylesheet" href="../css/header-queries.css" />
@@ -24,7 +26,7 @@
   </head>
   <body>
     <nav class="nav-bar-container">
-      <ul class="nav-bar sidebar"> 
+      <ul class="nav-bar sidebar">
         <!-- <li class="nav-item logo">
           <a href="#" class="logo-link" alt="Nav-Bar-link">
             <img
@@ -66,10 +68,7 @@
         </li>
 
         <li class="nav-item nav-services">
-          <a href="team.html" class="nav-link" alt="Nav-Bar-link-team">Team</a>
-        </li>
-        <li class="nav-item nav-services">
-          <a href="./collaborators.html" class="nav-link" alt="Nav-Bar-link-team">Team</a>
+          <a href="../en/team.html" class="nav-link" alt="Nav-Bar-link-team">Team</a>
         </li>
 
         <li class="nav-item nav-language">
@@ -102,10 +101,10 @@
             <div class="dropdown-list-container">
               <ul class="dropdown-list">
                 <li class="nav-item dropdown-list-item-1">
-                  <a class="dropdown-list-item-link" href="../en/team.html">English
+                  <a class="dropdown-list-item-link" href="#" />English
                 </li>
                 <li class="nav-item dropdown-list-item">
-                  <a class="dropdown-list-item-link" href="../ru/team.html">русский
+                  <a class="dropdown-list-item-link" href="#" />русский
                 </li>
               </ul>
             </div>
@@ -113,9 +112,7 @@
         </li>
 
         <li class="nav-item nav-contact">
-          <a href="./contact.html" class="contact-link" alt="Nav Bar link"
-            >Contact-us</a
-          >
+          <a href="./contact.html" class="contact-link" alt="Nav Bar link">Contact-us</a>
         </li>
 
         <li onclick="hideSidebar()" class="close-menu">
@@ -183,7 +180,6 @@
             >Collaborators</a
           >
         </li>
-
         <li class="nav-item nav-language hide-on-mobile">
           <a href="#" class="nav-link" alt="Nav-Bar-link-language"
             ><div>
@@ -216,13 +212,13 @@
                 <li class="nav-item dropdown-list-item-1">
                   <a
                     class="dropdown-list-item-link"
-                    href="../en/team.html"
+                    href="./services.html"
                   >English
                 </li>
                 <li class="nav-item dropdown-list-item">
                   <a
                     class="dropdown-list-item-link"
-                    href="../ru/team.html"
+                    href="../ru/services.html"
                   >русский
                 </li>
               </ul>
@@ -251,137 +247,55 @@
         </li>
       </ul>
     </nav>
-    <section class="section-teams">
+    <section class="section-events">
       <div class="container-m">
-        <div class="heading-teams-container">
-          <div class="heading-teams-text">
-            <h2 class="heading-primaryy">Team</h2>
+        <div class="heading-events-container">
+          <div class="heading-events-text">
+            <h2 class="heading-primaryy">Events</h2>
             <span class="padding--right-left"></span>
             <p class="sub-heading">
               <a href="/en/index.html" class="home-link">Home</a> - Team
             </p>
           </div>
         </div>
-        
-        <div class="teams-images-container">
-          <h2 class="heading-secondaryy padding--right-left teams-heading">
-            Our Team
-          </h2>
-          <div class="teams-images-grid padding--right-left">
-            <!-- First -->
-            <div class="team-card">
-              <div class="card-image">
-                <a href="/en/member-Varun-Kashyap.html" class="card-link">
-                  <img
-                    src="/images/Mr-Varun-Kashyap.png"
-                    alt="Mr-Varun-Kashyap"
-                    class="team-image"
-                  />
-                  <div class="card-content">
-                    <h2 class="heading-tertiaryy person-name">
-                      Mr. Varun Kashyap
-                    </h2>
-                    <p>Director, International Affairs</p>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <!-- Second -->
-            <div class="team-card">
-              <div class="card-image">
-                <a href="/en/member-Udai-Sood.html" class="card-link">
-                  <img
-                    src="/images/Mr-Udai-Sood.png"
-                    alt="Mr. Udai Sood"
-                    class="team-image"
-                  />
-                  <div class="card-content">
-                    <h2 class="heading-tertiaryy person-name">Mr. Udai Sood</h2>
-                    <p>Deputy Director, International Affairs</p>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div class="team-card">
-              <div class="card-image">
-                <a href="#" class="card-link">
-                  <img
-                    src="/images/Mr. Amandeep Singh .jpeg"
-                    alt="Mr. Amandeep Singh"
-                    class="team-image"
-                  />
-                  <div class="card-content">
-                    <h2 class="heading-tertiaryy person-name">
-                      Mr. Amandeep Singh
-                    </h2>
-                    <p>Media Incharge, International Affairs</p>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div class="team-card">
-              <div class="card-image">
-                <a href="#" class="card-link">
-                  <img
-                    src="/images/Mr Robin Kumar.jpeg"
-                    alt="Mr Robin Kumar"
-                    class="team-image"
-                  />
-                  <div class="card-content">
-                    <h2 class="heading-tertiaryy person-name">
-                      Mr Robin Kumar
-                    </h2>
-                    <p>Communication Incharge, International Affairs</p>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div class="team-card">
-              <div class="card-image">
-                <a href="#" class="card-link">
-                  <img
-                    src="/images/Mr. Sahil Kaushar.jpeg"
-                    alt="Mr Sahil Kaushar"
-                    class="team-image"
-                  />
-                  <div class="card-content">
-                    <h2 class="heading-tertiaryy person-name">
-                      Mr Sahil Kaushar
-                    </h2>
-                    <p>Member, International Affairs</p>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div class="team-card">
-              <div class="card-image">
-                <a href="#" class="card-link">
-                  <img
-                    src="/images/Mr Rajeshwar Kant.jpeg"
-                    alt="Mr. Rajeshwar Kant"
-                    class="team-image"
-                  />
-                  <div class="card-content">
-                    <h2 class="heading-tertiaryy person-name">
-                      Mr. Rajeshwar Kant
-                    </h2>
-                    <p>Member, International Affairs</p>
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
     </section>
-
+    <section class="section-events-main">
+      <div class="heading-events-cont">
+        <h2 class="heading-events">Events</h2>
+        <p class="events-intro">Welcome to the Pathway Global Alliance Events Page! Here, you'll find information about our upcoming events, including dates, times, locations, and descriptions. Click on any event card below to learn more and register.</p>
+      </div>
+      <div class="events-grid">
+        <div class="events-card events-card--1">
+            <a href="#" class="card-link">
+              <div>
+                <div class="image-event-container">
+                  <img class="image-event" src="../images/trination image.jpg" alt="image of event (Trination)"/>
+                  <div class="event-data-container">
+                    <h3 class="heading-event">Trination</h3>
+                    <p class="event-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa qui doloribus velit rerum maxime. Vel veniam suscipit dolores quas animi eius, velit deserunt dicta consequuntur, obcaecati aut eos ex voluptas.</p>
+                  </div>
+                  <div class="event-details">
+                    <ul class="detail-list">
+                      <li class="event-list-item">
+                        <ion-icon class="event-icon" name="calendar-outline"></ion-icon><p class="list-text">21/03/25 - 23/03/25</p></li>
+                      <li class="event-list-item"><ion-icon class="event-icon" name="location-outline"></ion-icon><p class="list-text">Rhotak, MDU</p></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          </div>
+      </div>
+    </section>
     <footer class="footer-container">
       <div class="footer-grid">
         <div class="footer-grid-1 footer-grid-item">
           <h2 class="footer-grid-heading">Our Contact</h2>
           <div class="grid-1-flex--box address-russia">
             <p class="address-text">
-              <strong>Pathway Global Alliance</strong><br />Moscow , Street
+              <strong>Pathway Global  Alliance</strong><br />Moscow , Street
               Khabarova , 2 <br />Russia
             </p>
           </div>
@@ -461,7 +375,7 @@
               <!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
               <path
                 d="M512 256C512 114.6 397.4 0 256 0S0 114.6 0 256C0 376 82.7 476.8 194.2 504.5V334.2H141.4V256h52.8V222.3c0-87.1 39.4-127.5 125-127.5c16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1c-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H287V510.1C413.8 494.8 512 386.9 512 256h0z"
-              /></svg
+              /></svg>
           ></a>
           <a href="#" class="sub-footer--icon-link"
             ><svg
@@ -473,7 +387,7 @@
               <!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
               <path
                 d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"
-              /></svg
+              /></svg>
           ></a>
           <a href="#" class="sub-footer--icon-link"
             ><svg
@@ -485,7 +399,7 @@
               <!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
               <path
                 d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"
-              /></svg
+              /></svg>
           ></a>
         </div>
       </div>
