@@ -127,6 +127,7 @@ body {
 }
 
 .events-card {
+  overflow: hidden;
   background: linear-gradient(#fff, #e62026);
   /* height: 40rem; */
   width: 40rem;
@@ -189,3 +190,12 @@ body {
   color: #f8bcbe;
   font-size: 1.5rem;
 }
+
+@media (max-width: 45em) {
+  html {
+    font-size: 50%;
+  }
+  events-grid {
+    grid-template-columns: 1fr;
+    padding-left: 0.4rem;
+  }
