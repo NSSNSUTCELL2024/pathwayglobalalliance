@@ -195,7 +195,8 @@ body {
   html {
     font-size: 50%;
   }
-  events-grid {
+  .events-grid {
     grid-template-columns: 1fr;
     padding-left: 0.4rem;
   }
+}
