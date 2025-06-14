@@ -3,4 +3,27 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/ngidhxtn/public_html/
     - /bin/cp * $DEPLOYPATH
-    - /bin/chmod -R 755 $DEPLOYPATH
+    - /bin/cp -r /home/ngidhxtn/repositories/pathwayglobalalliance/css $DEPLOYPATH
+    - /bin/cp -r /home/ngidhxtn/repositories/pathwayglobalalliance/css/fancybox $DEPLOYPATH
+    - /bin/cp -r /home/ngidhxtn/repositories/pathwayglobalalliance/js $DEPLOYPATH
+    - /bin/cp -r /home/ngidhxtn/repositories/pathwayglobalalliance/js/flexslider $DEPLOYPATH
+    - /bin/cp -r /home/ngidhxtn/repositories/pathwayglobalalliance/js/google-code-prettify $DEPLOYPATH
+    - /bin/cp -r /home/ngidhxtn/repositories/pathwayglobalalliance/js/portfolio $DEPLOYPATH
+    - /bin/cp -r /home/ngidhxtn/repositories/pathwayglobalalliance/js/quicksand $DEPLOYPATH
+    - /bin/cp -r /home/ngidhxtn/repositories/pathwayglobalalliance/images $DEPLOYPATH
+    - /bin/cp -r /home/ngidhxtn/repositories/pathwayglobalalliance/images/about $DEPLOYPATH
+    - /bin/cp -r /home/ngidhxtn/repositories/pathwayglobalalliance/images/banner $DEPLOYPATH
+    - /bin/cp -r /home/ngidhxtn/repositories/pathwayglobalalliance/images/collaborators $DEPLOYPATH
+    - /bin/cp -r /home/ngidhxtn/repositories/pathwayglobalalliance/images/event/Cultural $DEPLOYPATH
+    - /bin/cp -r /home/ngidhxtn/repositories/pathwayglobalalliance/images/event/delegate $DEPLOYPATH
+    - /bin/cp -r /home/ngidhxtn/repositories/pathwayglobalalliance/images/event/ev2 $DEPLOYPATH
+    - /bin/cp -r /home/ngidhxtn/repositories/pathwayglobalalliance/images/eventsports $DEPLOYPATH
+    - /bin/cp -r /home/ngidhxtn/repositories/pathwayglobalalliance/images/event $DEPLOYPATH
+    - /bin/cp -r /home/ngidhxtn/repositories/pathwayglobalalliance/fonts $DEPLOYPATH
+    - /bin/cp -r /home/ngidhxtn/repositories/pathwayglobalalliance/fonts/customicon $DEPLOYPATH
+    - /bin/cp -r /home/ngidhxtn/repositories/pathwayglobalalliance/en $DEPLOYPATH
+    - /bin/cp -r /home/ngidhxtn/repositories/pathwayglobalalliance/ru $DEPLOYPATH
+    - /bin/cp -r /home/ngidhxtn/repositories/pathwayglobalalliance/materialize $DEPLOYPATH
+    - /bin/cp -r /home/ngidhxtn/repositories/pathwayglobalalliance/materialize/fonts/roboto $DEPLOYPATH
+    - /bin/cp -r /home/ngidhxtn/repositories/pathwayglobalalliance/materialize/js $DEPLOYPATH
+    - /bin/cp -r /home/ngidhxtn/repositories/pathwayglobalalliance/materialize/css $DEPLOYPATH
