@@ -131,6 +131,7 @@ body {
   background: linear-gradient(#fff, #e62026);
   /* height: 40rem; */
   width: 40rem;
+  overflow: hidden;
   border-radius: 11px;
   overflow: none;
   padding-bottom: 2rem;
