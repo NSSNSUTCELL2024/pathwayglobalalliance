@@ -3,3 +3,4 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/ngidhxtn/public_html/
     - /bin/cp * $DEPLOYPATH
+    - /bin/chmod -R 755 $DEPLOYPATH
