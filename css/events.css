@@ -34,9 +34,10 @@ body {
   padding-right: 12rem;
 }
 
-.container-m {
+.container-mona {
   padding-bottom: 2.4rem;
   background-color: #1c1c1c;
+  /* padding-right: 1rem; */
 }
 
 .heading-events-container {
@@ -118,6 +119,7 @@ body {
   font-size: 1.6rem;
   line-height: 1.25;
   margin-bottom: 2rem;
+  padding-right: 3rem;
 }
 
 .events-grid {
@@ -136,6 +138,10 @@ body {
   overflow: none;
   padding-bottom: 2rem;
   transition: all 0.3s;
+}
+
+.image-event-container img {
+  height: 27.5rem;
 }
 
 .events-card:hover {
@@ -190,6 +196,14 @@ body {
 .list-text {
   color: #f8bcbe;
   font-size: 1.5rem;
+}
+
+/* Media Queries */
+
+@media (max-width: 75em) {
+  .events-grid {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 @media (max-width: 45em) {

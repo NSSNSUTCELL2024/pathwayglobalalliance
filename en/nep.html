@@ -10,12 +10,8 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
-    <link rel="icon" type="image/x-icon" href="/images/logo.png" />
-    <link rel="stylesheet" href="/css/events.css" />
-    <link rel="stylesheet" href="/css/events-queries.css" />
-
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="icon" type="image/x-icon" href="/images/logo.png">
+    <link rel="stylesheet" href="/css/collaborators.css" />
 
     <link rel="stylesheet" href="../css/header.css" />
     <link rel="stylesheet" href="../css/header-queries.css" />
@@ -23,10 +19,81 @@
     <link rel="stylesheet" href="../css/footer.css" />
     <link rel="stylesheet" href="../css/footer-queries.css" />
     <title>Pathway Global Alliance</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+        section {
+            width: 100%;
+            padding: 20px;
+            background: white;
+            box-sizing: border-box;
+            background-color: #1c1c1c;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+        .event-section {
+            margin-bottom: 40px;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(4, auto);
+            gap: 15px;
+            justify-content: center;
+        }
+        .gallery img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        .card {
+            background: white;
+            padding: 10px;
+            border-radius: 8px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, background 0.3s ease;
+            height: 250px; 
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+        }
+        .card:hover {
+            transform: scale(1.05);
+            background: #ec4141;
+        }
+        .card:hover .description {
+            color:  white;
+        }
+        .description {
+            font-size: 0.9rem;
+            margin-top: 5px;
+            color: #ec4141;
+            font-size: 1.5rem;
+        }
+        @media(max-width: 45em) {
+          html {
+            font-size: 50%;
+          }
+
+          .gallery {
+            grid-template-columns: 1fr;
+          }
+        }
+    </style>
+
+
+
   </head>
   <body>
     <nav class="nav-bar-container">
-      <ul class="nav-bar sidebar">
+      <ul class="nav-bar sidebar"> 
         <!-- <li class="nav-item logo">
           <a href="#" class="logo-link" alt="Nav-Bar-link">
             <img
@@ -45,12 +112,6 @@
         <li class="nav-item nav-about">
           <a href="./about.html" class="nav-link" alt="Nav-Bar-link-About-us"
             >About Us</a
-          >
-        </li>
-
-        <li class="nav-item nav-events">
-          <a href="./events.html" class="nav-link" alt="Nav-Bar-link-Events"
-            >Events</a
           >
         </li>
 
@@ -74,10 +135,7 @@
         </li>
 
         <li class="nav-item nav-services">
-          <a href="../en/team.html" class="nav-link" alt="Nav-Bar-link-team">Team</a>
-        </li>
-        <li class="nav-item nav-services">
-          <a href="../en/collaborators.html" class="nav-link" alt="Nav-Bar-link-team">Collaborators</a>
+          <a href="#" class="nav-link" alt="Nav-Bar-link-team">Team</a>
         </li>
 
         <li class="nav-item nav-language">
@@ -110,10 +168,10 @@
             <div class="dropdown-list-container">
               <ul class="dropdown-list">
                 <li class="nav-item dropdown-list-item-1">
-                  <a class="dropdown-list-item-link" href="#" />English
+                  <a class="dropdown-list-item-link" href="../en/team.html">English
                 </li>
                 <li class="nav-item dropdown-list-item">
-                  <a class="dropdown-list-item-link" href="#" />русский
+                  <a class="dropdown-list-item-link" href="../ru/team.html">русский
                 </li>
               </ul>
             </div>
@@ -121,7 +179,9 @@
         </li>
 
         <li class="nav-item nav-contact">
-          <a href="./contact.html" class="contact-link" alt="Nav Bar link">Contact-us</a>
+          <a href="./contact.html" class="contact-link" alt="Nav Bar link"
+            >Contact-us</a
+          >
         </li>
 
         <li onclick="hideSidebar()" class="close-menu">
@@ -159,8 +219,7 @@
             >About Us</a
           >
         </li>
-
-        <li class="nav-item nav-events hide-on-mobile">
+        <li class="nav-item nav-about hide-on-mobile">
           <a href="./events.html" class="nav-link" alt="Nav-Bar-link-Events"
             >Events</a
           >
@@ -168,7 +227,7 @@
 
         <li class="nav-item nav-recruitment hide-on-mobile">
           <a href="./services.html" class="nav-link" alt="Nav-Bar-link-services"
-            >services</a
+            >Services</a
           >
         </li>
 
@@ -177,7 +236,7 @@
             href="./recruitment-procedure.html"
             class="nav-link"
             alt="Nav-Bar-link-recruitment-procedure"
-            >recruitment procedure</a
+            >Recruitment procedure</a
           >
         </li>
 
@@ -195,6 +254,7 @@
             >Collaborators</a
           >
         </li>
+
         <li class="nav-item nav-language hide-on-mobile">
           <a href="#" class="nav-link" alt="Nav-Bar-link-language"
             ><div>
@@ -227,13 +287,13 @@
                 <li class="nav-item dropdown-list-item-1">
                   <a
                     class="dropdown-list-item-link"
-                    href="./services.html"
+                    href="../en/team.html"
                   >English
                 </li>
                 <li class="nav-item dropdown-list-item">
                   <a
                     class="dropdown-list-item-link"
-                    href="../ru/services.html"
+                    href="../ru/team.html"
                   >русский
                 </li>
               </ul>
@@ -262,77 +322,55 @@
         </li>
       </ul>
     </nav>
-    <section class="section-events">
-      <div class="container-mona">
-        <div class="heading-events-container">
-          <div class="heading-events-text">
-            <h2 class="heading-primaryy">Events</h2>
-            <span class="padding--right-left"></span>
-            <p class="sub-heading">
-              <a href="/en/index.html" class="home-link">Home</a> - Team
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="section-events-main">
-      <div class="heading-events-cont">
-        <h2 class="heading-events">Events</h2>
-        <p class="events-intro">Welcome to the Pathway Global Alliance Events Page! Here, you'll find information about our upcoming events, including dates, times, locations, and descriptions. Click on any event card below to learn more and register.</p>
-      </div>
-      <div class="events-grid">
-        <div class="events-card events-card--1">
-            <a href="ev2.html" class="card-link">
-              <div>
-                <div class="image-event-container">
-                  <img class="image-event" src="../images/trination image.jpg" alt="image of event (Trination)"/>
-                  <div class="event-data-container">
-                    <h3 class="heading-event">Trination Wrestling Champianship 2025</h3>
-                    <p class="event-description">​The "Shaheed-E-Azam Bhagat Singh Memorial India-Russia-Uzbekistan Belt Wrestling Cup 2025" took place at Maharshi Dayanand University (MDU) in Rohtak, Haryana, from March 22-23, 2025. This tri-nation event featured athletes from India, Russia, and Uzbekistan competing in traditional belt wrestling, fostering international sportsmanship and cultural exchange.​</p>
-                  </div>
-                  <div class="event-details">
-                    <ul class="detail-list">
-                      <li class="event-list-item">
-                        <ion-icon class="event-icon" name="calendar-outline"></ion-icon><p class="list-text">21/03/25 - 23/03/25</p></li>
-                      <li class="event-list-item"><ion-icon class="event-icon" name="location-outline"></ion-icon><p class="list-text">Rohtak, MDU</p></li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
+    
 
 
-          <div class="events-card events-card--2">
-            <a href="nep.html" class="card-link">
-              <div>
-                <div class="image-event-container">
-                  <img class="image-event" src="../images/Nepal-event-question.jpg" alt="image of event (Nepal Visit)"/>
-                  <div class="event-data-container">
-                    <h3 class="heading-event">World Youth Festival 2025 Nepal</h3>
-                    <p class="event-description">Pathway Global Alliance proudly presents the World Youth Festival 2025, set against the breathtaking backdrop of Nepal—a land where culture, resilience, and the spirit of youth converge. This landmark international gathering will bring together young leaders, innovators, and changemakers from across the globe to exchange ideas, celebrate diversity, and shape solutions for a better tomorrow.​</p>
-                  </div>
-                  <div class="event-details">
-                    <ul class="detail-list">
-                      <li class="event-list-item">
-                        <ion-icon class="event-icon" name="calendar-outline"></ion-icon><p class="list-text">March 2025</p></li>
-                      <li class="event-list-item"><ion-icon class="event-icon" name="location-outline"></ion-icon><p class="list-text">Nepal</p></li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
+
+
+
+    
+    <section>
+        <div class="event-section">
+            <br>
+            <br>
+            <br>
+            <br>
+            <h2 style="font-size: 5rem; color: #ec4141;">WYF Nepal</h2>
+            <br>
+            <br>
+            <div class="gallery">
+              <div class='card'><img src='/images/event/nepal-visit/img15.jpg' alt='Image 1'></div>
+              <div class='card'><img src='/images/event/nepal-visit/img2.jpg' alt='Image 1'></div>
+              <div class='card'><img src='/images/event/nepal-visit/img3.jpg' alt='Image 1'></div>
+              <div class='card'><img src='/images/event/nepal-visit/img4.jpg' alt='Image 1'></div>
+              <div class='card'><img src='/images/event/nepal-visit/img5.jpg' alt='Image 1'></div>
+              <div class='card'><img src='/images/event/nepal-visit/img6.jpg' alt='Image 1'></div>
+              <div class='card'><img src='/images/event/nepal-visit/img7.jpg' alt='Image 1'></div>
+              <div class='card'><img src='/images/event/nepal-visit/img8.jpg' alt='Image 1'></div>
+              <div class='card'><img src='/images/event/nepal-visit/img9.jpg' alt='Image 1'></div>
+              <div class='card'><img src='/images/event/nepal-visit/img10.jpg' alt='Image 1'></div>
+              <div class='card'><img src='/images/event/nepal-visit/img11.jpg' alt='Image 1'></div>
+              <div class='card'><img src='/images/event/nepal-visit/img12.jpg' alt='Image 1'></div>
+              <div class='card'><img src='/images/event/nepal-visit/img13.jpg' alt='Image 1'></div>
+              <div class='card'><img src='/images/event/nepal-visit/img14.jpg' alt='Image 1'></div>
+              <div class='card'><img src='/images/event/nepal-visit/img1.jpg' alt='Image 1'></div>
+              <div class='card'><img src='/images/event/nepal-visit/img16.jpg' alt='Image 1'></div>
+              <div class='card'><img src='/images/event/nepal-visit/img17.jpg' alt='Image 1'></div>
+            </div>
         </div>
-      </div>
+        </div>
     </section>
+
+
+
+
     <footer class="footer-container">
       <div class="footer-grid">
         <div class="footer-grid-1 footer-grid-item">
           <h2 class="footer-grid-heading">Our Contact</h2>
           <div class="grid-1-flex--box address-russia">
             <p class="address-text">
-              <strong>Pathway Global  Alliance</strong><br />Moscow , Street
+              <strong>Pathway Global Alliance</strong><br />Moscow , Street
               Khabarova , 2 <br />Russia
             </p>
           </div>
@@ -412,7 +450,7 @@
               <!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
               <path
                 d="M512 256C512 114.6 397.4 0 256 0S0 114.6 0 256C0 376 82.7 476.8 194.2 504.5V334.2H141.4V256h52.8V222.3c0-87.1 39.4-127.5 125-127.5c16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1c-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H287V510.1C413.8 494.8 512 386.9 512 256h0z"
-              /></svg>
+              /></svg
           ></a>
           <a href="#" class="sub-footer--icon-link"
             ><svg
@@ -424,7 +462,7 @@
               <!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
               <path
                 d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"
-              /></svg>
+              /></svg
           ></a>
           <a href="#" class="sub-footer--icon-link"
             ><svg
@@ -436,7 +474,7 @@
               <!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
               <path
                 d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"
-              /></svg>
+              /></svg
           ></a>
         </div>
       </div>
