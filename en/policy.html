@@ -1,624 +1,261 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+<meta charset="utf-8">
+<title>Policy - Pathway Global Alliance</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="Pathway Global Alliance policy framework for youth exchange, cultural promotion, and global cooperation." />
+<link rel="icon" type="image/x-icon" href="/images/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="/css/modern.css" rel="stylesheet" />
+</head>
+<body class="modern-body">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="icon" type="image/x-icon" href="/images/logo.png">
-    <link rel="stylesheet" href="../css/header.css" />
-    <link rel="stylesheet" href="../css/header-queries.css" />
+<!-- Page Loader -->
 
-    <link rel="stylesheet" href="/css/policy.css" /> 
-    <link rel="stylesheet" href="/css/policy-queries.css" />
+<!-- Floating Language Switch - completely outside nav -->
+<div id="lang-float" style="position:fixed;top:16px;right:180px;z-index:999999;display:flex;align-items:center;gap:4px;background:rgba(0,0,0,0.7);backdrop-filter:blur(10px);padding:4px 8px;border-radius:20px;border:1px solid rgba(255,255,255,0.15);">
+    <button onclick="window.location.href='/en/policy.html'" style="background:rgba(230,32,38,0.3);color:#fff;border:1px solid rgba(230,32,38,0.5);padding:4px 12px;border-radius:14px;font-size:11px;font-weight:700;cursor:pointer;letter-spacing:0.5px;font-family:Inter,sans-serif;">EN</button>
+    <button onclick="window.location.href='/ru/policy.html'" style="background:transparent;color:rgba(255,255,255,0.6);border:1px solid rgba(255,255,255,0.15);padding:4px 12px;border-radius:14px;font-size:11px;font-weight:700;cursor:pointer;letter-spacing:0.5px;font-family:Inter,sans-serif;">RU</button>
+</div>
+<div class="page-loader"><div class="loader-spinner"></div></div>
 
-    <link rel="stylesheet" href="../css/footer.css" />
-    <link rel="stylesheet" href="../css/footer-queries.css" />
-    <title>Section-policy</title>
-  </head>
-  <body>
-    <nav class="nav-bar-container">
-      <ul class="nav-bar sidebar">
-        <!-- <li class="nav-item logo">
-          <a href="#" class="logo-link" alt="Nav-Bar-link">
-            <img
-              src="../images/logo.png"
-              alt="Logo of Global Pathway Alliance"
-            />
-          </a>
-        </li> -->
+<!-- Cursor Glow -->
+<div class="cursor-glow"></div>
 
-        <li class="nav-item nav-home">
-          <a href="./index.html" class="nav-link" alt="Nav-Bar-link-home"
-            >Home</a
-          >
-        </li>
-
-        <li class="nav-item nav-about">
-          <a href="./about.html" class="nav-link" alt="Nav-Bar-link-About-us"
-            >About Us</a
-          >
-        </li>
-        <li class="nav-item nav-about hide-on-mobile">
-          <a href="./events.html" class="nav-link" alt="Nav-Bar-link-About-us"
-            >Events</a
-          >
-        </li>
-
-        <li class="nav-item nav-recruitment">
-          <a href="./services.html" class="nav-link" alt="Nav-Bar-link-services"
-            >services</a
-          >
-        </li>
-
-        <!-- <li class="nav-item nav-policy">
-          <a
-            href="./recruitment-procedure.html"
-            class="nav-link"
-            alt="Nav-Bar-link-recruitment-procedure"
-            >recruitment procedure</a
-          >
-        </li> -->
-
-        <li class="nav-item nav-team">
-          <a href="./policy.html" class="nav-link" alt="Nav-Bar-link">policy</a>
-        </li>
-
-        <li class="nav-item nav-services">
-          <a href="../en/team.html" class="nav-link" alt="Nav-Bar-link-team">Team</a>
-        </li>
-        <li class="nav-item nav-services">
-          <a href="../en/collaborators.html" class="nav-link" alt="Nav-Bar-link-team">Collaborators</a>
-        </li>
-
-        <li class="nav-item nav-language">
-          <a href="#" class="nav-link" alt="Nav-Bar-link-language"
-            ><div>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="16"
-                height="16"
-                fill="currentColor"
-                class="globe-icon"
-                viewBox="0 0 16 16"
-              >
-                <path
-                  d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m7.5-6.923c-.67.204-1.335.82-1.887 1.855q-.215.403-.395.872c.705.157 1.472.257 2.282.287zM4.249 3.539q.214-.577.481-1.078a7 7 0 0 1 .597-.933A7 7 0 0 0 3.051 3.05q.544.277 1.198.49zM3.509 7.5c.036-1.07.188-2.087.436-3.008a9 9 0 0 1-1.565-.667A6.96 6.96 0 0 0 1.018 7.5zm1.4-2.741a12.3 12.3 0 0 0-.4 2.741H7.5V5.091c-.91-.03-1.783-.145-2.591-.332M8.5 5.09V7.5h2.99a12.3 12.3 0 0 0-.399-2.741c-.808.187-1.681.301-2.591.332zM4.51 8.5c.035.987.176 1.914.399 2.741A13.6 13.6 0 0 1 7.5 10.91V8.5zm3.99 0v2.409c.91.03 1.783.145 2.591.332.223-.827.364-1.754.4-2.741zm-3.282 3.696q.18.469.395.872c.552 1.035 1.218 1.65 1.887 1.855V11.91c-.81.03-1.577.13-2.282.287zm.11 2.276a7 7 0 0 1-.598-.933 9 9 0 0 1-.481-1.079 8.4 8.4 0 0 0-1.198.49 7 7 0 0 0 2.276 1.522zm-1.383-2.964A13.4 13.4 0 0 1 3.508 8.5h-2.49a6.96 6.96 0 0 0 1.362 3.675c.47-.258.995-.482 1.565-.667m6.728 2.964a7 7 0 0 0 2.275-1.521 8.4 8.4 0 0 0-1.197-.49 9 9 0 0 1-.481 1.078 7 7 0 0 1-.597.933M8.5 11.909v3.014c.67-.204 1.335-.82 1.887-1.855q.216-.403.395-.872A12.6 12.6 0 0 0 8.5 11.91zm3.555-.401c.57.185 1.095.409 1.565.667A6.96 6.96 0 0 0 14.982 8.5h-2.49a13.4 13.4 0 0 1-.437 3.008M14.982 7.5a6.96 6.96 0 0 0-1.362-3.675c-.47.258-.995.482-1.565.667.248.92.4 1.938.437 3.008zM11.27 2.461q.266.502.482 1.078a8.4 8.4 0 0 0 1.196-.49 7 7 0 0 0-2.275-1.52c.218.283.418.597.597.932m-.488 1.343a8 8 0 0 0-.395-.872C9.835 1.897 9.17 1.282 8.5 1.077V4.09c.81-.03 1.577-.13 2.282-.287z"
-                ></path>
-              </svg>
-              <svg
-                class="dropdown-svg"
-                fill="currentColor"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 320 512"
-              >
-                <!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
-                <path
-                  d="M137.4 374.6c12.5 12.5 32.8 12.5 45.3 0l128-128c9.2-9.2 11.9-22.9 6.9-34.9s-16.6-19.8-29.6-19.8L32 192c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9l128 128z"
-                />
-              </svg>
-            </div>
-            <div class="dropdown-list-container">
-              <ul class="dropdown-list">
-                <li class="nav-item dropdown-list-item-1">
-                  <a class="dropdown-list-item-link" href="../en/policy.html">English
-                </li>
-                <li class="nav-item dropdown-list-item">
-                  <a class="dropdown-list-item-link" href="../ru/policy.html" >русский
-                </li>
-              </ul>
-            </div>
-          </a>
-        </li>
-
-        <li class="nav-item nav-contact">
-          <a href="./contact.html" class="contact-link" alt="Nav Bar link"
-            >Contact-us</a
-          >
-        </li>
-
-        <li onclick="hideSidebar()" class="close-menu">
-          <a href="#" class="close-menu-icon" alt="Nav Bar link"
-            ><svg
-              fill="currentColor"
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 384 512"
-            >
-              <!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
-              <path
-                d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"
-              /></svg>
-          </a>
-        </li>
-      </ul>
-      <ul class="nav-bar">
-        <li class="nav-item logo">
-          <a href="#" class="logo-link" alt="Nav-Bar-link">
-            <img
-              src="../images/logo.png"
-              alt="Logo of Global Pathway Alliance"
-            />
-          </a>
-        </li>
-
-        <li class="nav-item nav-home hide-on-mobile">
-          <a href="./index.html" class="nav-link" alt="Nav-Bar-link-home"
-            >Home</a
-          >
-        </li>
-
-        <li class="nav-item nav-about hide-on-mobile">
-          <a href="./about.html" class="nav-link" alt="Nav-Bar-link-About-us"
-            >About Us</a
-          >
-        </li>
-        <li class="nav-item nav-about hide-on-mobile">
-          <a href="./events.html" class="nav-link" alt="Nav-Bar-link-About-us"
-            >Events</a
-          >
-        </li>
-
-        <li class="nav-item nav-recruitment hide-on-mobile">
-          <a href="./services.html" class="nav-link" alt="Nav-Bar-link-services"
-            >services</a
-          >
-        </li>
-
-        <!-- <li class="nav-item nav-policy hide-on-mobile">
-          <a
-            href="./recruitment-procedure.html"
-            class="nav-link"
-            alt="Nav-Bar-link-recruitment-procedure"
-            >recruitment procedure</a
-          >
-        </li> -->
-
-        <li class="nav-item nav-team hide-on-mobile">
-          <a href="./policy.html" class="nav-link" alt="Nav-Bar-link">policy</a>
-        </li>
-
-        <li class="nav-item nav-services hide-on-mobile">
-          <a href="./team.html" class="nav-link" alt="Nav-Bar-link-team"
-            >Team</a
-          >
-        </li>
-        <li class="nav-item nav-services hide-on-mobile">
-          <a href="./collaborators.html" class="nav-link" alt="Nav-Bar-link-team"
-            >Collaborators</a
-          >
-        </li>
-        <li class="nav-item nav-language hide-on-mobile">
-          <a href="#" class="nav-link" alt="Nav-Bar-link-language"
-            ><div>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="16"
-                height="16"
-                fill="currentColor"
-                class="globe-icon"
-                viewBox="0 0 16 16"
-              >
-                <path
-                  d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m7.5-6.923c-.67.204-1.335.82-1.887 1.855q-.215.403-.395.872c.705.157 1.472.257 2.282.287zM4.249 3.539q.214-.577.481-1.078a7 7 0 0 1 .597-.933A7 7 0 0 0 3.051 3.05q.544.277 1.198.49zM3.509 7.5c.036-1.07.188-2.087.436-3.008a9 9 0 0 1-1.565-.667A6.96 6.96 0 0 0 1.018 7.5zm1.4-2.741a12.3 12.3 0 0 0-.4 2.741H7.5V5.091c-.91-.03-1.783-.145-2.591-.332M8.5 5.09V7.5h2.99a12.3 12.3 0 0 0-.399-2.741c-.808.187-1.681.301-2.591.332zM4.51 8.5c.035.987.176 1.914.399 2.741A13.6 13.6 0 0 1 7.5 10.91V8.5zm3.99 0v2.409c.91.03 1.783.145 2.591.332.223-.827.364-1.754.4-2.741zm-3.282 3.696q.18.469.395.872c.552 1.035 1.218 1.65 1.887 1.855V11.91c-.81.03-1.577.13-2.282.287zm.11 2.276a7 7 0 0 1-.598-.933 9 9 0 0 1-.481-1.079 8.4 8.4 0 0 0-1.198.49 7 7 0 0 0 2.276 1.522zm-1.383-2.964A13.4 13.4 0 0 1 3.508 8.5h-2.49a6.96 6.96 0 0 0 1.362 3.675c.47-.258.995-.482 1.565-.667m6.728 2.964a7 7 0 0 0 2.275-1.521 8.4 8.4 0 0 0-1.197-.49 9 9 0 0 1-.481 1.078 7 7 0 0 1-.597.933M8.5 11.909v3.014c.67-.204 1.335-.82 1.887-1.855q.216-.403.395-.872A12.6 12.6 0 0 0 8.5 11.91zm3.555-.401c.57.185 1.095.409 1.565.667A6.96 6.96 0 0 0 14.982 8.5h-2.49a13.4 13.4 0 0 1-.437 3.008M14.982 7.5a6.96 6.96 0 0 0-1.362-3.675c-.47.258-.995.482-1.565.667.248.92.4 1.938.437 3.008zM11.27 2.461q.266.502.482 1.078a8.4 8.4 0 0 0 1.196-.49 7 7 0 0 0-2.275-1.52c.218.283.418.597.597.932m-.488 1.343a8 8 0 0 0-.395-.872C9.835 1.897 9.17 1.282 8.5 1.077V4.09c.81-.03 1.577-.13 2.282-.287z"
-                ></path>
-              </svg>
-              <svg
-                class="dropdown-svg"
-                fill="currentColor"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 320 512"
-              >
-                <!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
-                <path
-                  d="M137.4 374.6c12.5 12.5 32.8 12.5 45.3 0l128-128c9.2-9.2 11.9-22.9 6.9-34.9s-16.6-19.8-29.6-19.8L32 192c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9l128 128z"
-                />
-              </svg>
-            </div>
-            <div class="dropdown-list-container">
-              <ul class="dropdown-list">
-                <li class="nav-item dropdown-list-item-1">
-                  <a
-                    class="dropdown-list-item-link"
-                    href="../en/policy.html"
-                  >English
-                </li>
-                <li class="nav-item dropdown-list-item">
-                  <a
-                    class="dropdown-list-item-link"
-                    href="../ru/policy.html"
-                  >русский
-                </li>
-              </ul>
-            </div>
-          </a>
-        </li>
-
-        <li class="nav-item nav-contact hide-on-mobile">
-          <a href="./contact.html" class="contact-link" alt="Nav Bar link"
-            >Contact-us</a
-          >
-        </li>
-
-        <li onclick="showSidebar()" class="menu-icon">
-          <a href="#" class="menu-icon-link" alt="Nav Bar link"
-            ><svg
-              fill="currentColor"
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 448 512"
-            >
-              <!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
-              <path
-                d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z"
-              /></svg>
-          </a>
-        </li>
-      </ul>
-    </nav>
-
-    <section class="section-policy">
-      <div class="container-m">
-        <div class="heading-policy-container">
-          <div class="heading-policy-text">
-            <h2 class="heading-primaryy">Policy</h2>
-            <span class="padding--left"></span>
-            <p class="sub-heading">
-              <a href="/en/index.html" class="home-link">Home</a> - Policy
-            </p>
-          </div>
+<!-- Modern Navbar -->
+<nav class="modern-navbar">
+    <div class="nav-container">
+        <a href="/en/index.html" class="nav-logo"><img src="/images/logo.png" alt="Pathway Global Alliance"></a>
+        <ul class="nav-menu">
+            <li><a href="/en/index.html">Home</a></li>
+            <li><a href="/en/about.html">About Us</a></li>
+            <li><a href="/en/youth.html">Youth</a></li>
+            <li><a href="/en/sports.html">Sports</a></li>
+            <li><a href="/en/business.html">Business</a></li>
+            <li><a href="/en/culture.html">Culture</a></li>
+            <li><a href="/en/updates.html">Updates &amp; Media</a></li>
+            <li><a href="/en/get-involved.html">Get Involved</a></li>
+            <li><a href="/en/leadership.html">Leadership</a></li>
+            <li><a href="/en/contact.html" class="btn-modern" style="padding: 10px 24px; font-size: 13px; border-radius: 8px;">Contact Us</a></li>
+        </ul>
+        <div class="nav-toggle">
+            <span></span><span></span><span></span>
         </div>
-        <div class="policy-container padding--right-left">
-          <p class="introduction-PGA">
-            Pathway Global Alliance (PGA) is committed to fostering global
-            cultural exchange, leadership, and collaboration. Our mission is to
-            promote India’s rich heritage, strengthen international ties, and
-            facilitate meaningful engagements between nations. We achieve this
-            through diverse programs, youth exchange initiatives,
-            capacity-building efforts, and international cooperation.
-          </p>
-          <!--<h2 class="heading-secondaryy padding--right-left policy-heading">
-            Our Policy
-          </h2>
-          <p class="policy-para padding--right-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde nisi debitis est, quia   nihil delectus tenetur, distinctio, pariatur dolore saepe numquam qui nemo. Fugiat iure inventore consectetur dolor placeat expedita!
+    </div>
+</nav>
 
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident rerum, beatae cumque expedita laborum corrupti adipisci esse maiores sit pariatur. Veniam unde omnis, repellat pariatur ullam assumenda iste numquam odio.<br /><br />
+<!-- Page Hero -->
+<section class="page-hero">
+    <img src="/images/About-us.jpg" alt="Policy" class="page-hero-bg">
+    <div class="page-hero-overlay"></div>
+    <div class="page-hero-content">
+        <h1 class="page-hero-title">Policy</h1>
+        <p class="page-hero-breadcrumb"><a href="/en/index.html">Home</a> &mdash; Policy</p>
+    </div>
+</section>
 
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia voluptatum ab ipsam ad odio. Nisi, nesciunt maxime! Perspiciatis praesentium quibusdam, adipisci unde sunt quas, distinctio earum odit vero, totam repellendus?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam officia porro quo exercitationem dolores temporibus eveniet nostrum, veritatis obcaecati totam vel autem minima reiciendis commodi, vero laboriosam est soluta hic.<br /><br />
+<!-- Introduction -->
+<section class="subpage-section">
+    <div class="subpage-container">
+        <div class="section-header reveal">
+            <div class="section-tag">Our Framework</div>
+            <h2 class="section-title">Introduction</h2>
+            <div class="modern-divider"></div>
+        </div>
+        <div class="policy-block reveal">
+            <p>The Pathway Global Alliance (PGA) is dedicated to the empowerment of Indian youth by fostering international cultural exchange, promoting Indian heritage, and creating opportunities for global engagement. This policy document outlines the organizational framework, strategic goals, and operational guidelines of PGA to ensure transparent, effective, and impactful operations in line with its mission to connect Indian youth with international platforms.</p>
+        </div>
+    </div>
+</section>
 
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga, quod quasi? Corrupti molestiae magni, a quaerat obcaecati ullam architecto perferendis itaque labore saepe asperiores sit libero reiciendis. Tempore, voluptates adipisci.
-          </p>-->
-          <div class="objectives policy--hover">
+<!-- Objectives -->
+<section class="subpage-section">
+    <div class="subpage-container">
+        <div class="section-header reveal">
+            <div class="section-tag">Our Goals</div>
+            <h2 class="section-title">Objectives</h2>
+            <div class="modern-divider"></div>
+        </div>
+        <div class="policy-block reveal">
+            <p style="margin-bottom:20px;">The Pathway Global Alliance shall operate with the following core objectives:</p>
             <ul class="policy-list">
-              <h2 class="heading-secondaryy policy-list-heading">Objectives</h2>
-              <li class="list-item">
-                To facilitate youth exchange programs that promote
-                cross-cultural understanding and global leadership.
-              </li>
-              <li class="list-item">
-                To promote Indian culture through art, music, dance, literature,
-                and traditional knowledge systems.
-              </li>
-              <li class="list-item">
-                To enhance capacity building and leadership development among
-                youth and professionals.
-              </li>
-              <li class="list-item">
-                To strengthen global cooperation through partnerships with
-                international organizations and governments
-              </li>
-              <li class="list-item">
-                To organize cultural and educational activities that foster
-                mutual respect and collaboration.
-              </li>
+                <li>To facilitate the participation of Indian youth in international events, forums, and cultural exchange programs.</li>
+                <li>To promote and showcase India's diverse traditions, arts, and cultural heritage on global platforms.</li>
+                <li>To develop leadership skills, communication abilities, and global competence among Indian youth.</li>
+                <li>To strengthen bilateral and multilateral partnerships with international organizations, governments, and youth networks.</li>
+                <li>To organize workshops, seminars, and cultural events that highlight India's soft power and encourage intercultural dialogue.</li>
             </ul>
-          </div>
+        </div>
+    </div>
+</section>
 
-          <div class="policy-framework policy--hover">
-            <ul class="policy-1 policy-list">
-              <p class="policy-container-heading">Our Policy</p>
-              <h2 class="heading-secondaryy policy-list-heading">
-                1. Facilitating Youth Exchange
-              </h2>
-              <li class="list-item">
-                PGA shall design and implement structured youth exchange
-                programs to enhance cross-cultural dialogue.
-              </li>
-              <li class="list-item">
-                The exchange programs will be inclusive, providing equal
-                opportunities regardless of socio-economic backgrounds.
-              </li>
-              <li class="list-item">
-                Collaboration with international educational institutions and
-                organizations will be pursued to ensure the success of these
-                programs.
-              </li>
-              <li class="list-item">
-                The program shall focus on leadership, diplomacy, sustainable
-                development, and social responsibility.
-              </li>
-            </ul>
-            <ul class="policy-2 policy-list">
-              <h2 class="heading-secondaryy policy-list-heading">
-                2. Promoting Indian Culture
-              </h2>
-              <li class="list-item">
-                PGA will organize cultural events, exhibitions, and festivals to
-                showcase India’s diverse heritage.
-              </li>
-              <li class="list-item">
-                The organization will facilitate workshops and training programs
-                on traditional Indian arts, crafts, and performing arts
-              </li>
-              <li class="list-item">
-                PGA shall collaborate with cultural institutions and embassies
-                to promote Indian traditions on global platforms.
-              </li>
-              <li class="list-item">
-                Digital initiatives, such as online cultural workshops and
-                virtual heritage tours, will be developed to reach a wider
-                audience.
-              </li>
-            </ul>
-            <ul class="policy-3 policy-list">
-              <h2 class="heading-secondaryy policy-list-heading">
-                3. Capacity Building & Leadership
-              </h2>
-              <li class="list-item">
-                PGA will provide training programs, mentorship, and
-                skill-building initiatives for youth and emerging leaders.
-              </li>
-              <li class="list-item">
-                The organization will establish partnerships with universities,
-                think tanks, and leadership academies to offer specialized
-                programs.
-              </li>
-              <li class="list-item">
-                Special focus will be given to leadership in diplomacy,
-                international relations, and global policymaking.
-              </li>
-              <li class="list-item">
-                Scholarships and fellowships shall be instituted to support
-                individuals engaged in cultural and leadership activities.
-              </li>
-            </ul>
-            <ul class="policy-4 policy-list">
-              <h2 class="heading-secondaryy policy-list-heading">
-                4. Enhancing Global Cooperation
-              </h2>
-              <li class="list-item">
-                PGA will engage with governments, international organizations,
-                and civil society to strengthen global partnerships.
-              </li>
-              <li class="list-item">
-                Participation in global forums, summits, and policy dialogues
-                will be encouraged.
-              </li>
-              <li class="list-item">
-                Joint initiatives, such as international research collaborations
-                and intergovernmental cultural projects, will be facilitated.
-              </li>
-              <li class="list-item">
-                PGA shall advocate for cultural diplomacy as a means to promote
-                peace and understanding among nations.
-              </li>
-            </ul>
-            <ul class="policy-5 policy-list">
-              <h2 class="heading-secondaryy policy-list-heading">
-                5. Organizing Cultural & Educational Activities
-              </h2>
-              <li class="list-item">
-                PGA will organize seminars, workshops, and conferences to
-                facilitate intellectual discourse on culture and international
-                relations.
-              </li>
-              <li class="list-item">
-                Educational tours and heritage visits will be arranged for
-                students and professionals.
-              </li>
-              <li class="list-item">
-                PGA will collaborate with schools and universities to integrate
-                cultural education into curricula.
-              </li>
-              <li class="list-item">
-                An annual international cultural summit shall be organized to
-                bring together global leaders, scholars, and artists.
-              </li>
-            </ul>
-          </div>
+<!-- Policy Framework -->
+<section class="subpage-section">
+    <div class="subpage-container">
+        <div class="section-header reveal">
+            <div class="section-tag">Key Areas</div>
+            <h2 class="section-title">Policy Framework</h2>
+            <div class="modern-divider"></div>
+        </div>
 
-          <div class="policy-strategy policy--hover">
+        <!-- Youth Exchange -->
+        <div class="policy-block reveal">
+            <h3>1. Youth Exchange Participation</h3>
             <ul class="policy-list">
-              <h2 class="heading-secondaryy policy-list-heading">
-                Implementation & Strategy
-              </h2>
-              <li class="list-item">
-                Develop strategic partnerships with government agencies,
-                corporate sponsors, and non-profit organizations.
-              </li>
-              <li class="list-item">
-                Establish regional chapters and offices to facilitate program
-                implementation across different countries.
-              </li>
-              <li class="list-item">
-                Leverage technology and digital platforms to enhance outreach
-                and engagement.
-              </li>
-              <li class="list-item">
-                Ensure sustainability and long-term impact through monitoring,
-                evaluation, and continuous improvement.
-              </li>
+                <li>PGA shall identify and coordinate participation in international youth events, including but not limited to the World Youth Forum, cultural festivals, and global summits.</li>
+                <li>A transparent selection process shall be implemented for choosing Indian delegates, based on merit, passion for cultural exchange, and leadership potential.</li>
+                <li>PGA shall facilitate visa arrangements, travel logistics, and pre-event orientation programs for selected delegates.</li>
+                <li>Post-event reports and documentation shall be maintained to measure impact and guide future participation strategies.</li>
             </ul>
-          </div>
+        </div>
 
-          <div class="policy-governance policy--hover">
+        <!-- Indian Culture Promotion -->
+        <div class="policy-block reveal">
+            <h3>2. Indian Culture Promotion</h3>
             <ul class="policy-list">
-              <h2 class="heading-secondaryy policy-list-heading">
-                Governance & Compliance
-              </h2>
-              <li class="list-item">
-                PGA will establish a governing board and advisory council
-                comprising experts in cultural diplomacy, international
-                relations, and leadership.
-              </li>
-              <li class="list-item">
-                Transparency, accountability, and ethical practices will be
-                upheld in all operations.
-              </li>
-              <li class="list-item">
-                Compliance with national and international legal frameworks will
-                be ensured.
-              </li>
-              <li class="list-item">
-                Regular audits and impact assessments will be conducted to
-                maintain the integrity and effectiveness of the organization.
-              </li>
+                <li>PGA shall actively plan and execute cultural exhibitions, performances, and presentations showcasing India's art, music, dance, cuisine, language, and traditions at international events.</li>
+                <li>Collaborations with Indian cultural organizations, artists, and government bodies (such as ICCR) shall be pursued to enhance cultural representation.</li>
+                <li>Digital content creation (documentaries, social media campaigns, newsletters) shall be used to promote Indian culture globally.</li>
+                <li>An annual calendar of cultural promotion activities shall be maintained and published.</li>
             </ul>
-          </div>
+        </div>
 
-          <div class="policy-conclusion policy--hover">
-            <h2 class="heading-secondaryy conclusion-heading">Conclusion</h2>
-            <p class="conclusion-text">
-              Pathway Global Alliance is dedicated to fostering a world where
-              culture, leadership, and international collaboration create
-              bridges of understanding and progress. Through our strategic
-              initiatives and programs, we aim to inspire and empower
-              individuals while strengthening the global presence of Indian
-              heritage and values.
-            </p>
-          </div>
+        <!-- Capacity Building -->
+        <div class="policy-block reveal">
+            <h3>3. Capacity Building</h3>
+            <ul class="policy-list">
+                <li>PGA shall organize training sessions, workshops, and mentoring programs focused on leadership, diplomacy, intercultural communication, and public speaking.</li>
+                <li>Partnerships with educational institutions and think tanks shall be forged to create knowledge-sharing platforms for Indian youth.</li>
+                <li>A youth mentor network shall be established to provide guidance and support to emerging youth leaders.</li>
+                <li>Regular feedback and assessment mechanisms shall be put in place to evaluate the effectiveness of capacity-building initiatives.</li>
+            </ul>
         </div>
-      </div>
-    </section>
-    <footer class="footer-container">
-      <div class="footer-grid">
-        <div class="footer-grid-1 footer-grid-item">
-          <h2 class="footer-grid-heading">Our Contact</h2>
-          <div class="grid-1-flex--box address-russia">
-            <p class="address-text">
-              <strong>Pathway Global Alliance</strong><br />Moscow , Street
-              Khabarova , 2 <br />Russia
-            </p>
-          </div>
-          <div class="grid-1-flex--box address-india">
-            <p class="address-text">
-              <strong>Mittar Immigration</strong><br />Near Bus Stand, Moga<br />
-              Punjab, India
-            </p>
-          </div>
-          <div class="grid-1-flex--box contact-phone-mail">
-            <a href="tel:(+91) 9780153819" class="footer-link"
-              >(+91)9780153819</a
-            >
-            <a href="tel:8(968)822-00-60" class="footer-link"
-              >8 (968) 822-00-60</a
-            >
-            <a href="mailto:support@pathawayglobalalliance.org" class="footer-link"
-              >support@pathawayglobalalliance.org</a
-            >
-          </div>
-        </div>
-        <div class="footer-grid-2 footer-grid-item">
-          <h2 class="footer-grid-heading">Quick Links</h2>
-          <ul class="footer-links-list">
-            <li class="footer-links-list-item">
-              <a class="footer-link" href="./about.html">About us</a>
-            </li>
-            <li class="footer-links-list-item">
-              <a class="footer-link" href="./services.html">Services</a>
-            </li>
-            <!-- <li class="footer-links-list-item">
-              <a class="footer-link" href="./recruitment-procedure.html"
-                >Recruitment Procedure</a
-              >
-            </li> -->
-            <li class="footer-links-list-item">
-              <a class="footer-link" href="./policy.html">Policy</a>
-            </li>
-            <li class="footer-links-list-item">
-              <a class="footer-link" href="./team.html">Team</a>
-            </li>
-            <li class="footer-links-list-item">
-              <a class="footer-link" href="./contact.html">Contact us</a>
-            </li>
-          </ul>
-        </div>
-        <div class="footer-grid-3 footer-grid-item">
-          <h2 class="footer-grid-heading">Our Newsletter</h2>
-          <p class="newsletter-text">
-            Subscribe to our newsletter to get the latest updates on our
-            services and job openings.
-          </p>
-          <form class="footer-form">
-            <input
-              type="email"
-              class="footer-input-box"
-              placeholder="Enter your email"
-            /><br />
-            <button type="submit" class="footer-newsletter-button">
-              Subscribe
-            </button>
-          </form>
-        </div>
-      </div>
-      <div class="sub-footer">
-        <p class="sub-footer--text">
-          © Pathway Global 2025 All rights reserved.
-        </p>
-        <div class="sub-footer--icon">
-          <a href="#" class="sub-footer--icon-link"
-            ><svg
-              fill="currentColor"
-              class="footer-icon icon--fb"
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 512 512"
-            >
-              <!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
-              <path
-                d="M512 256C512 114.6 397.4 0 256 0S0 114.6 0 256C0 376 82.7 476.8 194.2 504.5V334.2H141.4V256h52.8V222.3c0-87.1 39.4-127.5 125-127.5c16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1c-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H287V510.1C413.8 494.8 512 386.9 512 256h0z"
-              /></svg
-          ></a>
-          <a href="#" class="sub-footer--icon-link"
-            ><svg
-              fill="currentColor"
-              class="footer-icon icon--fb"
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 512 512"
-            >
-              <!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
-              <path
-                d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"
-              /></svg
-          ></a>
-          <a href="#" class="sub-footer--icon-link"
-            ><svg
-              fill="currentColor"
-              class="footer-icon icon--fb"
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 448 512"
-            >
-              <!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
-              <path
-                d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"
-              /></svg
-          ></a>
-        </div>
-      </div>
-    </footer>
 
-    <script>
-      function showSidebar() {
-        const sidebar = document.querySelector(".sidebar");
-        sidebar.style.display = "flex";
-      }
+        <!-- Global Cooperation -->
+        <div class="policy-block reveal">
+            <h3>4. Global Cooperation and Networking</h3>
+            <ul class="policy-list">
+                <li>PGA shall actively engage in dialogue and collaboration with international youth organizations, NGOs, and government bodies.</li>
+                <li>Memoranda of Understanding (MOUs) shall be established with partner organizations to formalize cooperation.</li>
+                <li>PGA shall represent Indian youth interests at international conferences, meetings, and working groups.</li>
+                <li>A database of international contacts and partner organizations shall be maintained for effective communication and collaboration.</li>
+            </ul>
+        </div>
 
-      function hideSidebar() {
-        const sidebar = document.querySelector(".sidebar");
-        sidebar.style.display = "none";
-      }
-    </script>
-  </body>
+        <!-- Cultural Activities -->
+        <div class="policy-block reveal">
+            <h3>5. Cultural Activities and Events</h3>
+            <ul class="policy-list">
+                <li>PGA shall organize and participate in cultural events, including festivals, exhibitions, seminars, and academic conferences both within India and internationally.</li>
+                <li>Event planning shall adhere to a standard operating procedure to ensure quality, safety, and cultural relevance.</li>
+                <li>All events shall include documentation (photos, videos, reports) for archiving, reporting, and promotional purposes.</li>
+                <li>Community engagement and volunteer participation shall be encouraged in all cultural activities.</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<!-- Implementation & Strategy -->
+<section class="subpage-section">
+    <div class="subpage-container">
+        <div class="section-header reveal">
+            <div class="section-tag">Execution</div>
+            <h2 class="section-title">Implementation &amp; Strategy</h2>
+            <div class="modern-divider"></div>
+        </div>
+        <div class="policy-block reveal">
+            <ul class="policy-list">
+                <li>PGA shall develop annual strategic plans detailing key activities, timelines, budgets, and performance indicators.</li>
+                <li>Progress reviews shall be conducted quarterly to assess achievements, challenges, and areas for improvement.</li>
+                <li>Stakeholder engagement (youth, partners, sponsors) shall be a key element in strategy development and execution.</li>
+                <li>A dedicated project management team shall oversee the implementation of all programs and events.</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<!-- Governance & Compliance -->
+<section class="subpage-section">
+    <div class="subpage-container">
+        <div class="section-header reveal">
+            <div class="section-tag">Accountability</div>
+            <h2 class="section-title">Governance &amp; Compliance</h2>
+            <div class="modern-divider"></div>
+        </div>
+        <div class="policy-block reveal">
+            <ul class="policy-list">
+                <li>PGA shall operate under a clearly defined organizational structure with roles, responsibilities, and reporting lines.</li>
+                <li>Financial transparency shall be maintained through regular audits, detailed financial reports, and compliance with all applicable laws and regulations.</li>
+                <li>A Code of Conduct shall be established for all members, volunteers, and delegates.</li>
+                <li>Data privacy and protection shall be ensured in compliance with relevant data protection laws.</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<!-- Conclusion -->
+<section class="subpage-section">
+    <div class="subpage-container">
+        <div class="policy-conclusion reveal">
+            <i class="material-icons">verified</i>
+            <h3>Conclusion</h3>
+            <p>This policy document serves as a guiding framework for the Pathway Global Alliance to achieve its mission of empowering Indian youth on the global stage. Through disciplined execution, strategic partnerships, and a commitment to cultural diplomacy, PGA aims to create a lasting impact on the global youth community. All PGA members, partners, and stakeholders are expected to adhere to the principles and guidelines set forth in this document.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="modern-footer">
+    <div class="section-container">
+        <div class="footer-grid">
+            <div class="footer-col">
+                <a href="/en/index.html" class="footer-logo"><img src="/images/logo.png" alt="Pathway Global Alliance"></a>
+                <p class="footer-desc">Bridging Nations Through Youth, Sports, Business, and Culture.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul class="footer-links">
+                    <li><a href="/en/about.html">About Us</a></li>
+                    <li><a href="/en/youth.html">Youth</a></li>
+                    <li><a href="/en/sports.html">Sports</a></li>
+                    <li><a href="/en/business.html">Business</a></li>
+                    <li><a href="/en/culture.html">Culture</a></li>
+                    <li><a href="/en/updates.html">Updates &amp; Media</a></li>
+                    <li><a href="/en/contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Our Contact</h4>
+                <p class="footer-contact-line"><strong>Pathway Global Alliance</strong><br>Moscow, Street Khabarova, 2<br>Russia</p>
+                <p class="footer-contact-line"><strong>Mittar Immigration</strong><br>Near Bus Stand, Moga<br>Punjab, India</p>
+            </div>
+            <div class="footer-col">
+                <h4>Newsletter</h4>
+                <p style="font-size:14px;opacity:0.7;margin-bottom:16px;">Subscribe for the latest updates on our services and events.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Enter your email" class="newsletter-input">
+                    <button type="submit" class="newsletter-btn">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; Pathway Global 2025 All rights reserved.</p>
+            <div class="footer-socials">
+                <a href="#" aria-label="Facebook"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 16 16"><path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/></svg></a>
+                <a href="#" aria-label="Twitter"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 16 16"><path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/></svg></a>
+                <a href="#" aria-label="LinkedIn"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 16 16"><path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/></svg></a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Scroll to Top -->
+<button class="scroll-top" aria-label="Scroll to top"><i class="material-icons">keyboard_arrow_up</i></button>
+
+<script src="/js/modern.js?v=3"></script>
+</body>
 </html>
