@@ -204,6 +204,45 @@ body.modern-body {
     display: none;
 }
 
+/* Language Switch in Navbar */
+.lang-switch {
+    display: flex !important;
+    align-items: center;
+    gap: 4px;
+    margin-left: 8px;
+    padding: 0 !important;
+}
+
+.lang-switch a {
+    display: inline-block;
+    padding: 6px 12px !important;
+    font-size: 11px !important;
+    font-weight: 700 !important;
+    letter-spacing: 0.5px;
+    color: rgba(255, 255, 255, 0.5) !important;
+    text-decoration: none !important;
+    border-radius: 6px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    background: transparent;
+}
+
+.lang-switch a:hover {
+    color: var(--white) !important;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.lang-switch a.lang-active {
+    color: var(--white) !important;
+    background: var(--red-primary);
+    border-color: var(--red-primary);
+}
+
+.lang-switch a::after {
+    display: none !important;
+}
+
 /* Language Inline Toggle - simple EN | RU */
 .nav-lang-switch {
     display: flex;
