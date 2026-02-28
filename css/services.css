@@ -33,7 +33,7 @@ nav {
 }
 
 .heading-tertiaryy {
-  color: #e62026;
+  color: #3498db;
   font-size: 1.6rem;
   font-weight: 600;
   letter-spacing: 1.3px;
@@ -86,7 +86,7 @@ nav {
 
 .home-link:hover,
 .home-link:hover {
-  color: #e62026;
+  color: #3498db;
   transform: scale(1.1);
 }
 
@@ -111,7 +111,7 @@ nav {
   left: 0;
   width: 32rem;
   height: 3px;
-  background: linear-gradient(to right, #1c1c1c, #e62026 90%);
+  background: linear-gradient(to right, #1c1c1c, #3498db 90%);
 }
 
 .para-phrase {
@@ -135,7 +135,7 @@ nav {
 
 .service-flex {
   /* background-color: #ee6367; */
-  background-color: #ec4141;
+  background-color: #2980b9;
   margin-bottom: 6.4rem;
   border-radius: 11px;
 

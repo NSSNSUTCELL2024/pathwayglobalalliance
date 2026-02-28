@@ -76,7 +76,7 @@ body {
 
 .home-link:hover,
 .home-link:hover {
-  color: #e62026;
+  color: #3498db;
   transform: scale(1.1);
 }
 
@@ -93,7 +93,7 @@ body {
 .heading-events {
   font-size: 3.2rem;
   /* margin-bottom: 2rem; */
-  color: #e62026;
+  color: #3498db;
   position: relative;
   padding-bottom: 2rem;
 }
@@ -111,7 +111,7 @@ body {
   left: 0;
   width: 7rem;
   height: 3px;
-  background: linear-gradient(to right, #1c1c1c, #e62026 70%);
+  background: linear-gradient(to right, #1c1c1c, #3498db 70%);
 }
 
 .events-intro {
@@ -130,7 +130,7 @@ body {
 
 .events-card {
   overflow: hidden;
-  background: linear-gradient(#fff, #e62026);
+  background: linear-gradient(#fff, #3498db);
   /* height: 40rem; */
   width: 40rem;
   overflow: hidden;

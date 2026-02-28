@@ -78,7 +78,7 @@ nav {
 
 .home-link:hover,
 .home-link:hover {
-  color: #e62026;
+  color: #3498db;
   transform: scale(1.1);
 }
 
@@ -105,7 +105,7 @@ nav {
   left: 0;
   width: 14rem;
   height: 2.5px;
-  background: linear-gradient(to right, #1c1c1c, #e62026 90%);
+  background: linear-gradient(to right, #1c1c1c, #3498db 90%);
 }
 
 .policy-para {

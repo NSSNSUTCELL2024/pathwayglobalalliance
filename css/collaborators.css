@@ -17,7 +17,7 @@ body {
 }
 
 .heading-primaryy {
-  color: #e62026;
+  color: #3498db;
   font-size: 4rem;
 }
 
@@ -74,7 +74,7 @@ body {
 
 .home-link:hover,
 .home-link:hover {
-  color: #e62026;
+  color: #3498db;
   transform: scale(1.1);
 }
 
@@ -86,5 +86,5 @@ body {
 
 .heading-collaboration-container {
   font-size: 2rem;
-  font-color: #e62026;
+  font-color: #3498db;
 }

@@ -126,7 +126,7 @@ body {
   left: 0;
   width: 6.4rem;
   height: 2px;
-  background: linear-gradient(to right, #1c1c1c, #e62026 90%);
+  background: linear-gradient(to right, #1c1c1c, #3498db 90%);
 }
 
 .member-description {
