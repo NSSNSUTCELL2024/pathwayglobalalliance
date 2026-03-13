@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Articles &amp; Insights - Pathway Global Alliance</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Read the latest articles, insights, and analysis from Pathway Global Alliance on international affairs, sports diplomacy, youth engagement, and cultural exchange." />
+    <link rel="icon" type="image/x-icon" href="/images/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="/css/modern.css" rel="stylesheet" />
+    <style>
+        .blog-card-date {
+            position: absolute;
+            top: 16px;
+            left: 16px;
+            background: var(--red-primary);
+            color: #fff;
+            padding: 6px 14px;
+            border-radius: 8px;
+            font-size: 12px;
+            font-weight: 600;
+            z-index: 2;
+        }
+        .blog-card-tag {
+            display: inline-block;
+            background: rgba(52, 152, 219, 0.1);
+            color: #3498db;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 600;
+            margin-bottom: 12px;
+            width: fit-content;
+        }
+        .blog-card-body .read-more {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            color: var(--red-primary);
+            font-weight: 600;
+            font-size: 14px;
+            text-decoration: none;
+            margin-top: auto;
+            padding-top: 16px;
+            transition: gap 0.3s;
+        }
+        .blog-card:hover .read-more {
+            gap: 10px;
+        }
+        .articles-nav {
+            display: flex;
+            justify-content: center;
+            gap: 16px;
+            margin-bottom: 40px;
+        }
+        .articles-nav a {
+            padding: 10px 28px;
+            border-radius: 50px;
+            font-size: 14px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.3s;
+            border: 1px solid var(--glass-border);
+            color: var(--gray-text);
+        }
+        .articles-nav a.active {
+            background: var(--red-primary);
+            color: #fff;
+            border-color: var(--red-primary);
+        }
+        .articles-nav a:hover:not(.active) {
+            border-color: var(--red-primary);
+            color: var(--red-primary);
+        }
+    </style>
+</head>
+
+<body class="modern-body">
+
+    <!-- Page Loader -->
+    <div class="page-loader"><div class="loader-spinner"></div></div>
+
+    <!-- Cursor Glow -->
+    <div class="cursor-glow"></div>
+
+    <!-- Navbar -->
+    <nav class="modern-navbar">
+        <div class="nav-container">
+            <a href="/en/index.html" class="nav-logo"><img src="/images/logo.png" alt="Pathway Global Alliance"></a>
+            <ul class="nav-menu">
+                <li><a href="/en/index.html">Home</a></li>
+                <li><a href="/en/about.html">About Us</a></li>
+                <li><a href="/en/youth.html">Youth</a></li>
+                <li><a href="/en/sports.html">Sports</a></li>
+                <li><a href="/en/business.html">Business</a></li>
+                <li><a href="/en/culture.html">Culture</a></li>
+                <li class="active"><a href="/en/updates.html">Updates &amp; Media</a></li>
+                <li><a href="/en/get-involved.html">Get Involved</a></li>
+                <li><a href="/en/leadership.html">Leadership</a></li>
+                <li><a href="/en/contact.html" class="btn-modern" style="padding: 10px 24px; font-size: 13px; border-radius: 8px;">Contact Us</a></li>
+                <li class="lang-switch"><a href="#" class="lang-active">EN</a><a href="#">RU</a></li>
+            </ul>
+            <button class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark/light theme">
+                <svg class="icon-sun" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+                <svg class="icon-moon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+            </button>
+            <div class="nav-toggle"><span></span><span></span><span></span></div>
+        </div>
+    </nav>
+
+    <!-- Page Hero -->
+    <section class="page-hero">
+        <img src="/images/About-us.jpg" alt="Articles & Insights" class="page-hero-bg">
+        <div class="page-hero-overlay"></div>
+        <div class="page-hero-content">
+            <h1 class="page-hero-title">Articles &amp; Insights</h1>
+            <p class="page-hero-breadcrumb"><a href="/en/index.html">Home</a> &mdash; <a href="/en/updates.html">Updates &amp; Media</a> &mdash; Articles</p>
+        </div>
+    </section>
+
+    <!-- Navigation Tabs -->
+    <section class="subpage-section" style="padding-bottom: 0;">
+        <div class="subpage-container">
+            <div class="articles-nav">
+                <a href="/en/updates.html">Events</a>
+                <a href="/en/articles.html" class="active">Articles</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Articles Grid -->
+    <section class="subpage-section">
+        <div class="subpage-container">
+            <div class="section-header reveal">
+                <div class="section-tag">Read &amp; Explore</div>
+                <h2 class="section-title">Latest <span class="text-red">Articles</span></h2>
+                <p class="section-subtitle">In-depth coverage and analysis of Pathway Global Alliance's international engagements, diplomatic events, sports diplomacy, and youth initiatives.</p>
+                <div class="modern-divider"></div>
+            </div>
+
+            <div class="blog-grid">
+
+                <!-- Article 1: EU Parliament -->
+                <a href="/articles/eu-parliament-meeting.html" class="blog-card reveal stagger-1" style="text-decoration:none;">
+                    <div class="blog-card-img">
+                        <span class="blog-card-date">March 2025</span>
+                        <img src="/images/event/3.2.png" alt="PGA Delegation at European Parliament">
+                    </div>
+                    <div class="blog-card-body">
+                        <span class="blog-card-tag">International Affairs</span>
+                        <h3>PGA Delegation Holds Meeting at European Parliament</h3>
+                        <p>A delegation of Pathway Global Alliance was invited to the European Parliament for discussions on India-Europe cooperation.</p>
+                        <span class="read-more">Read More <i class="material-icons" style="font-size:18px;">arrow_forward</i></span>
+                    </div>
+                </a>
+
+                <!-- Article 2: Trination Wrestling -->
+                <a href="/articles/trination-wrestling.html" class="blog-card reveal stagger-2" style="text-decoration:none;">
+                    <div class="blog-card-img">
+                        <span class="blog-card-date">March 2025</span>
+                        <img src="/images/trination image.jpg" alt="Trination Wrestling Championship">
+                    </div>
+                    <div class="blog-card-body">
+                        <span class="blog-card-tag">Sports</span>
+                        <h3>Trination Wrestling Championship Unites Three Nations</h3>
+                        <p>The Shaheed-E-Azam Bhagat Singh Memorial India-Russia-Uzbekistan Belt Wrestling Cup brought athletes together.</p>
+                        <span class="read-more">Read More <i class="material-icons" style="font-size:18px;">arrow_forward</i></span>
+                    </div>
+                </a>
+
+                <!-- Article 3: WYF Nepal -->
+                <a href="/articles/wyf-nepal-2025.html" class="blog-card reveal stagger-3" style="text-decoration:none;">
+                    <div class="blog-card-img">
+                        <span class="blog-card-date">March 2025</span>
+                        <img src="/images/event/nepal-visit/img15.jpg" alt="World Youth Festival 2025 Nepal">
+                    </div>
+                    <div class="blog-card-body">
+                        <span class="blog-card-tag">Youth</span>
+                        <h3>World Youth Festival 2025 Nepal</h3>
+                        <p>Pathway Global Alliance presents the World Youth Festival 2025 in Nepal, bringing together young leaders.</p>
+                        <span class="read-more">Read More <i class="material-icons" style="font-size:18px;">arrow_forward</i></span>
+                    </div>
+                </a>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="modern-footer">
+        <div class="section-container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <a href="/en/index.html" class="footer-logo"><img src="/images/logo.png" alt="Pathway Global Alliance"></a>
+                    <p class="footer-desc">Bridging Nations Through Youth, Sports, Business, and Culture.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="/en/about.html">About Us</a></li>
+                        <li><a href="/en/youth.html">Youth</a></li>
+                        <li><a href="/en/sports.html">Sports</a></li>
+                        <li><a href="/en/business.html">Business</a></li>
+                        <li><a href="/en/culture.html">Culture</a></li>
+                        <li><a href="/en/updates.html">Updates &amp; Media</a></li>
+                        <li><a href="/en/contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Our Contact</h4>
+                    <p class="footer-contact-line"><strong>Head Quarters</strong><br>Bughipura Chowk Moga<br>Punjab, India - 142001</p>
+                    <p class="footer-contact-line"><strong>Regional Office - Delhi</strong><br>226A, East of Kailash<br>New Delhi - 110065</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Newsletter</h4>
+                    <p style="font-size:14px;opacity:0.7;margin-bottom:16px;">Subscribe for the latest updates on our services and events.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Enter your email" class="newsletter-input">
+                        <button type="submit" class="newsletter-btn">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; Pathway Global 2025 All rights reserved.</p>
+                <div class="footer-socials">
+                    <a href="#" aria-label="Facebook"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 16 16"><path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/></svg></a>
+                    <a href="#" aria-label="Twitter"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 16 16"><path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/></svg></a>
+                    <a href="#" aria-label="LinkedIn"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 16 16"><path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/></svg></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <button class="scroll-top" aria-label="Scroll to top"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708z"/></svg></button>
+
+    <script src="/js/modern.js?v=3"></script>
+</body>
+
+</html>
